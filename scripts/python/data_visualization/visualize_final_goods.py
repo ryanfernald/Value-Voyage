@@ -18,7 +18,10 @@ def plot_incomes_inf_final_goods(db_path, year_range, goods_list, regions, incom
     if df['year'].nunique() == 1:
         # If only one year, create a bar chart
         labels = [f"{name} ({unit})" for name, unit in zip(df['name'], df['good_unit'])]
-        fig.add_trace(Scatter(x=labels, y=df['final_goods_affordable'], mode='markers', name='Affordable Quantity'))
+        fig.add_trace(Scatter(x=labels.astype(str).tolist(), 
+                              y=df['final_goods_affordable'].astype(float).tolist(), 
+                              mode='markers', 
+                              name='Affordable Quantity'))
         fig.update_layout(
             title=f"Affordable Quantity in {df['year'].iloc[0]}",
             xaxis_title="Good (Unit)",
