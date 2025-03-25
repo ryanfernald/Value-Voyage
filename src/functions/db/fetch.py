@@ -142,6 +142,7 @@ def fetch_final_goods_affordable(db_path, year_range=(1990, 2000), goods_list=No
         else:
             return json.dumps(merged_df.to_dict(orient='records'))
 
+
 def fetch_income_intervals_to_purchase(
     db_path,
     year_range=(1990, 2000),

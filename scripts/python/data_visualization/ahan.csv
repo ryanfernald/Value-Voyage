@@ -1,0 +1,1158 @@
+name,year,price,inflation,good_unit,date,data_source
+bacon,1930,0.43,-2.2727272727272707,lb,1930-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1931,0.37,-13.953488372093027,lb,1931-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1932,0.24,-35.13513513513513,lb,1932-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1933,0.23,-4.1666666666666625,lb,1933-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1934,0.29,26.08695652173911,lb,1934-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1935,0.41,41.37931034482758,lb,1935-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1936,0.41,0.0,lb,1936-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1937,0.41,0.0,lb,1937-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1938,0.37,-9.756097560975608,lb,1938-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1939,0.32,-13.513513513513509,lb,1939-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1940,0.27,-15.625,lb,1940-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1941,0.34,25.92592592592593,lb,1941-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1942,0.39,14.705882352941169,lb,1942-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1943,0.43,10.256410256410241,lb,1943-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1944,0.41,-4.651162790697683,lb,1944-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1945,0.41,0.0,lb,1945-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1946,0.53,29.268292682926834,lb,1946-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1947,0.78,47.169811320754704,lb,1947-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1948,0.77,-1.2820512820512886,lb,1948-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1949,0.67,-12.98701298701298,lb,1949-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1950,0.64,-4.477611940298509,lb,1950-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1951,0.67,4.6875,lb,1951-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1952,0.65,-2.985074626865669,lb,1952-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1953,0.79,21.53846153846155,lb,1953-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1954,0.82,3.797468354430378,lb,1954-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1955,0.66,-19.512195121951216,lb,1955-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1956,0.57,-13.636363636363647,lb,1956-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1957,0.74,29.824561403508774,lb,1957-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1958,0.79,6.756756756756754,lb,1958-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1959,0.67,-15.189873417721522,lb,1959-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1960,0.66,-1.4925373134328401,lb,1960-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1961,0.71,7.575757575757569,lb,1961-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1962,0.7,-1.4084507042253502,lb,1962-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1963,0.68,-2.857142857142847,lb,1963-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1964,0.67,-1.4705882352941235,lb,1964-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1965,0.81,20.895522388059696,lb,1965-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1966,0.95,17.28395061728394,lb,1966-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1967,0.84,-11.578947368421055,lb,1967-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1968,0.81,-3.5714285714285587,lb,1968-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1969,0.88,8.64197530864197,lb,1969-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1970,0.95,7.954545454545459,lb,1970-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bacon,1971,0.94,-1.0526315789473717,lb,1971-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+bacon,1972,0.8,-14.893617021276583,lb,1972-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+bacon,1973,0.96,19.999999999999996,lb,1973-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+bacon,1974,1.33,38.54166666666667,lb,1974-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+bacon,1975,1.76,32.33082706766916,lb,1975-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+bacon,1976,1.71,-2.840909090909094,lb,1976-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+bacon,1977,1.56,-8.771929824561397,lb,1977-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+bacon,1978,1.73,10.897435897435903,lb,1978-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+bacon,1979,1.595,-7.8034682080924895,lb,1979-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+bacon,1980,1.46,-8.463949843260188,lb,1980-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1981,1.67,14.383561643835607,lb,1981-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1982,2.05,22.754491017964074,lb,1982-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1983,1.94,-5.3658536585365795,lb,1983-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1984,1.86,-4.123711340206182,lb,1984-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1985,1.94,4.3010752688172005,lb,1985-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1986,2.08,7.216494845360821,lb,1986-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1987,2.14,2.8846153846153966,lb,1987-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1988,1.88,-12.149532710280386,lb,1988-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1989,1.77,-5.851063829787229,lb,1989-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1990,2.12,19.774011299435035,lb,1990-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1991,2.22,4.716981132075482,lb,1991-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1992,1.92,-13.51351351351352,lb,1992-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1993,1.93,0.5208333333333259,lb,1993-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1994,1.99,3.1088082901554515,lb,1994-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1995,1.99,0.0,lb,1995-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1996,2.47,24.120603015075393,lb,1996-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1997,2.68,8.502024291497978,lb,1997-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1998,2.54,-5.223880597014929,lb,1998-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,1999,2.55,0.3937007874015741,lb,1999-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2000,3.03,18.823529411764707,lb,2000-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2001,3.25,7.26072607260726,lb,2001-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2002,3.24,-0.3076923076922977,lb,2002-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2003,3.2,-1.2345679012345734,lb,2003-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2004,3.38,5.624999999999991,lb,2004-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2005,3.39,0.2958579881656931,lb,2005-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2006,3.44,1.4749262536873031,lb,2006-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2007,3.66,6.395348837209314,lb,2007-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2008,3.66,0.0,lb,2008-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2009,3.61,-1.3661202185792476,lb,2009-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2010,4.11,13.850415512465396,lb,2010-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2011,4.63,12.652068126520666,lb,2011-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2012,4.56,-1.5118790496760348,lb,2012-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2013,5.29,16.008771929824572,lb,2013-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2014,5.78,9.262759924385634,lb,2014-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2015,5.45,-5.709342560553631,lb,2015-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2016,5.42,-0.5504587155963359,lb,2016-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2017,5.77,6.457564575645747,lb,2017-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2018,5.47,-5.199306759098787,lb,2018-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2019,5.61,2.5594149908592323,lb,2019-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2020,5.58,-0.5347593582887722,lb,2020-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2021,6.64,18.99641577060931,lb,2021-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2022,7.31,10.090361445783124,lb,2022-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2023,6.65,-9.028727770177824,lb,2023-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bacon,2024,6.78,1.9548872180451093,lb,2024-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1930,0.09,0.0,lb,1930-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1931,0.08,-11.111111111111105,lb,1931-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1932,0.07,-12.49999999999999,lb,1932-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1933,0.07,0.0,lb,1933-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1934,0.08,14.28571428571428,lb,1934-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1935,0.08,0.0,lb,1935-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1936,0.08,0.0,lb,1936-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1937,0.09,12.5,lb,1937-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1938,0.09,0.0,lb,1938-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1939,0.08,-11.111111111111105,lb,1939-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1940,0.08,0.0,lb,1940-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1941,0.08,0.0,lb,1941-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1942,0.09,12.5,lb,1942-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1943,0.09,0.0,lb,1943-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1944,0.09,0.0,lb,1944-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1945,0.09,0.0,lb,1945-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1946,0.1,11.111111111111116,lb,1946-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1947,0.13,30.000000000000004,lb,1947-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1948,0.14,7.692307692307709,lb,1948-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1949,0.14,0.0,lb,1949-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1950,0.14,0.0,lb,1950-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1951,0.16,14.28571428571428,lb,1951-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1952,0.16,0.0,lb,1952-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1953,0.16,0.0,lb,1953-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1954,0.17,6.25,lb,1954-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1955,0.18,5.88235294117645,lb,1955-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1956,0.18,0.0,lb,1956-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1957,0.19,5.555555555555558,lb,1957-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1958,0.19,0.0,lb,1958-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1959,0.2,5.263157894736836,lb,1959-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1960,0.2,0.0,lb,1960-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1961,0.21,4.999999999999982,lb,1961-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1962,0.21,0.0,lb,1962-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1963,0.22,4.761904761904767,lb,1963-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1964,0.21,-4.545454545454552,lb,1964-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1965,0.21,0.0,lb,1965-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1966,0.22,4.761904761904767,lb,1966-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1967,0.22,0.0,lb,1967-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1968,0.22,0.0,lb,1968-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1969,0.23,4.545454545454541,lb,1969-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1970,0.24,4.347826086956519,lb,1970-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+bread,1971,0.25,4.166666666666674,lb,1971-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+bread,1972,0.25,0.0,lb,1972-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+bread,1973,0.28,12.00000000000001,lb,1973-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+bread,1974,0.34,21.42857142857142,lb,1974-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+bread,1975,0.36,5.88235294117645,lb,1975-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+bread,1976,0.35,-2.777777777777779,lb,1976-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+bread,1977,0.36,2.857142857142869,lb,1977-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+bread,1978,0.36,0.0,lb,1978-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+bread,1979,0.435,20.83333333333335,lb,1979-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+bread,1980,0.51,17.24137931034484,lb,1980-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1981,0.53,3.9215686274509887,lb,1981-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1982,0.53,0.0,lb,1982-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1983,0.54,1.8867924528301883,lb,1983-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1984,0.54,0.0,lb,1984-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1985,0.55,1.85185185185186,lb,1985-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1986,0.56,1.81818181818183,lb,1986-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1987,0.55,-1.7857142857142905,lb,1987-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1988,0.61,10.90909090909089,lb,1988-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1989,0.67,9.836065573770503,lb,1989-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1990,0.69,2.985074626865658,lb,1990-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1991,0.71,2.898550724637694,lb,1991-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1992,0.75,5.633802816901423,lb,1992-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1993,0.75,0.0,lb,1993-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1994,0.76,1.333333333333342,lb,1994-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1995,0.79,3.9473684210526327,lb,1995-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1996,0.88,11.392405063291132,lb,1996-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1997,0.87,-1.1363636363636354,lb,1997-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1998,0.86,-1.1494252873563204,lb,1998-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,1999,0.89,3.488372093023262,lb,1999-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2000,0.93,4.494382022471921,lb,2000-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2001,1.0,7.526881720430101,lb,2001-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2002,1.02,2.0000000000000018,lb,2002-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2003,1.0,-1.9607843137254943,lb,2003-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2004,0.97,-3.0000000000000027,lb,2004-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2005,1.04,7.216494845360821,lb,2005-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2006,1.08,3.8461538461538547,lb,2006-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2007,1.21,12.037037037037024,lb,2007-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2008,1.37,13.223140495867792,lb,2008-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2009,1.39,1.4598540145985162,lb,2009-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2010,1.37,-1.4388489208632893,lb,2010-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2011,1.44,5.109489051094873,lb,2011-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2012,1.42,-1.388888888888895,lb,2012-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2013,1.41,-0.7042253521126751,lb,2013-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2014,1.4,-0.7092198581560294,lb,2014-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2015,1.44,2.857142857142869,lb,2015-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2016,1.37,-4.861111111111105,lb,2016-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2017,1.33,-2.919708029197088,lb,2017-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2018,1.29,-3.007518796992481,lb,2018-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2019,1.3,0.7751937984496138,lb,2019-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2020,1.45,11.538461538461542,lb,2020-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2021,1.52,4.827586206896561,lb,2021-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2022,1.7,11.842105263157897,lb,2022-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2023,1.96,15.294117647058814,lb,2023-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+bread,2024,1.97,0.5102040816326481,lb,2024-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1930,0.46,-17.85714285714286,lb,1930-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1931,0.36,-21.739130434782616,lb,1931-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1932,0.28,-22.22222222222221,lb,1932-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1933,0.28,0.0,lb,1933-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1934,0.32,14.28571428571428,lb,1934-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1935,0.36,12.5,lb,1935-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1936,0.4,11.111111111111116,lb,1936-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1937,0.41,2.499999999999991,lb,1937-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1938,0.35,-14.634146341463417,lb,1938-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1939,0.33,-5.714285714285705,lb,1939-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1940,0.36,9.090909090909083,lb,1940-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1941,0.41,13.888888888888884,lb,1941-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1942,0.47,14.634146341463406,lb,1942-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1943,0.53,12.765957446808528,lb,1943-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1944,0.5,-5.660377358490576,lb,1944-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1945,0.51,2.0000000000000018,lb,1945-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1946,0.71,39.2156862745098,lb,1946-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1947,0.81,14.084507042253524,lb,1947-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1948,0.87,7.407407407407396,lb,1948-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1949,0.73,-16.09195402298851,lb,1949-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1950,0.73,0.0,lb,1950-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1951,0.82,12.328767123287676,lb,1951-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1952,0.86,4.878048780487809,lb,1952-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1953,0.79,-8.139534883720923,lb,1953-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1954,0.72,-8.860759493670889,lb,1954-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1955,0.71,-1.388888888888895,lb,1955-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1956,0.72,1.4084507042253502,lb,1956-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1957,0.74,2.77777777777779,lb,1957-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1958,0.74,0.0,lb,1958-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1959,0.75,1.3513513513513598,lb,1959-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1960,0.75,0.0,lb,1960-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1961,0.76,1.333333333333342,lb,1961-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1962,0.75,-1.3157894736842146,lb,1962-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1963,0.75,0.0,lb,1963-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1964,0.74,-1.3333333333333308,lb,1964-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1965,0.75,1.3513513513513598,lb,1965-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1966,0.82,9.333333333333327,lb,1966-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1967,0.83,1.2195121951219523,lb,1967-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1968,0.84,1.2048192771084265,lb,1968-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1969,0.85,1.1904761904761862,lb,1969-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1970,0.87,2.35294117647058,lb,1970-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+butter,1971,0.85,-2.298850574712641,lb,1971-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+butter,1972,0.86,1.17647058823529,lb,1972-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+butter,1973,0.91,5.813953488372103,lb,1973-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+butter,1974,0.94,3.296703296703285,lb,1974-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+butter,1975,1.02,8.510638297872353,lb,1975-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+butter,1976,1.26,23.529411764705888,lb,1976-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+butter,1977,1.33,5.555555555555558,lb,1977-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+butter,1978,1.39,4.5112781954887105,lb,1978-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+butter,1979,1.635,17.625899280575542,lb,1979-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+butter,1980,1.88,14.984709480122316,lb,1980-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1981,1.99,5.85106382978724,lb,1981-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1982,2.05,3.015075376884413,lb,1982-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1983,2.06,0.4878048780487809,lb,1983-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1984,2.11,2.4271844660194164,lb,1984-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1985,2.12,0.4739336492891155,lb,1985-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1986,2.15,1.4150943396226356,lb,1986-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1987,2.17,0.9302325581395321,lb,1987-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1988,2.16,-0.4608294930875445,lb,1988-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1989,2.13,-1.388888888888895,lb,1989-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1990,1.99,-6.572769953051639,lb,1990-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1991,1.94,-2.5125628140703515,lb,1991-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1992,1.83,-5.670103092783496,lb,1992-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1993,1.66,-9.289617486338809,lb,1993-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1994,1.6,-3.6144578313252906,lb,1994-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1995,1.61,0.6250000000000089,lb,1995-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1996,2.05,27.329192546583837,lb,1996-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1997,2.17,5.853658536585371,lb,1997-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1998,2.86,31.79723502304148,lb,1998-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,1999,2.65,-7.342657342657343,lb,1999-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,2000,2.52,-4.9056603773584895,lb,2000-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,2001,3.3,30.952380952380953,lb,2001-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,2002,3.07,-6.969696969696971,lb,2002-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,2003,2.81,-8.469055374592827,lb,2003-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,2004,3.49,24.199288256227767,lb,2004-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,2005,3.28,-6.017191977077374,lb,2005-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,2006,2.92,-10.97560975609756,lb,2006-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,2007,3.03,3.767123287671237,lb,2007-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,2008,3.14,3.630363036303641,lb,2008-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,2009,2.84,-9.554140127388544,lb,2009-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,2010,3.12,9.859154929577475,lb,2010-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,2011,3.6,15.384615384615374,lb,2011-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+butter,2012,3.38,-6.111111111111112,lb,2012-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1930,0.4,-16.666666666666664,lb,1930-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1931,0.33,-17.500000000000004,lb,1931-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1932,0.29,-12.121212121212132,lb,1932-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1933,0.26,-10.344827586206884,lb,1933-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1934,0.27,3.8461538461538547,lb,1934-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1935,0.26,-3.703703703703709,lb,1935-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1936,0.24,-7.692307692307699,lb,1936-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1937,0.26,8.333333333333348,lb,1937-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1938,0.23,-11.538461538461542,lb,1938-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1939,0.22,-4.34782608695653,lb,1939-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1940,0.21,-4.545454545454552,lb,1940-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1941,0.24,14.28571428571428,lb,1941-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1942,0.28,16.666666666666675,lb,1942-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1943,0.3,7.14285714285714,lb,1943-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1944,0.3,0.0,lb,1944-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1945,0.31,3.3333333333333437,lb,1945-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1946,0.34,9.677419354838722,lb,1946-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1947,0.47,38.23529411764704,lb,1947-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1948,0.51,8.510638297872353,lb,1948-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1949,0.55,7.843137254901977,lb,1949-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1950,0.79,43.636363636363626,lb,1950-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1951,0.87,10.126582278481,lb,1951-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1952,0.87,0.0,lb,1952-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1953,0.89,2.298850574712641,lb,1953-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1954,1.11,24.71910112359552,lb,1954-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1955,0.93,-16.216216216216218,lb,1955-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1956,1.03,10.752688172043001,lb,1956-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1957,1.02,-0.9708737864077666,lb,1957-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1958,0.91,-10.784313725490192,lb,1958-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1959,0.78,-14.28571428571429,lb,1959-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1960,0.75,-3.8461538461538547,lb,1960-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1961,0.74,-1.3333333333333308,lb,1961-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1962,0.71,-4.054054054054057,lb,1962-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1963,0.69,-2.8169014084507116,lb,1963-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1964,0.82,18.840579710144922,lb,1964-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1965,0.83,1.2195121951219523,lb,1965-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1966,0.82,-1.2048192771084376,lb,1966-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1967,0.77,-6.097560975609751,lb,1967-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1968,0.76,-1.2987012987012991,lb,1968-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1969,0.77,1.3157894736842035,lb,1969-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1970,0.91,18.181818181818187,lb,1970-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+coffee,1971,0.93,2.19780219780219,lb,1971-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+coffee,1972,0.92,-1.0752688172043001,lb,1972-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+coffee,1973,1.04,13.043478260869556,lb,1973-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+coffee,1974,1.23,18.26923076923077,lb,1974-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+coffee,1975,1.33,8.130081300813007,lb,1975-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+coffee,1976,1.87,40.601503759398504,lb,1976-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+coffee,1977,3.47,85.56149732620322,lb,1977-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+coffee,1978,3.39,-2.3054755043227737,lb,1978-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+coffee,1979,3.245,-4.277286135693215,lb,1979-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+coffee,1980,3.1,-4.46841294298922,lb,1980-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1981,2.5,-19.354838709677423,lb,1981-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1982,2.5,0.0,lb,1982-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1983,2.5,0.0,lb,1983-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1984,2.6,4.0000000000000036,lb,1984-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1985,2.6,0.0,lb,1985-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1986,3.4,30.76923076923077,lb,1986-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1987,2.8,-17.647058823529417,lb,1987-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1988,2.8,0.0,lb,1988-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1989,3.1,10.71428571428572,lb,1989-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1990,3.0,-3.2258064516129115,lb,1990-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1991,2.8,-6.666666666666677,lb,1991-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1992,2.6,-7.142857142857128,lb,1992-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1993,2.5,-3.8461538461538547,lb,1993-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1994,3.4,35.999999999999986,lb,1994-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1995,4.0,17.647058823529417,lb,1995-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1996,3.4,-15.000000000000002,lb,1996-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1997,4.1,20.58823529411764,lb,1997-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1998,3.8,-7.317073170731703,lb,1998-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,1999,3.4,-10.526315789473683,lb,1999-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2000,3.4,0.0,lb,2000-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2001,3.1,-8.823529411764696,lb,2001-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2002,2.9,-6.451612903225811,lb,2002-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2003,2.9,0.0,lb,2003-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2004,2.8,-3.4482758620689724,lb,2004-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2005,3.3,17.85714285714286,lb,2005-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2006,3.2,-3.0303030303030165,lb,2006-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2007,3.5,9.375,lb,2007-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2009,3.7,5.714285714285716,lb,2009-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2010,3.9,5.405405405405395,lb,2010-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2011,5.2,33.33333333333335,lb,2011-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2012,5.7,9.615384615384626,lb,2012-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2013,5.5,-3.508771929824561,lb,2013-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2014,5.0,-9.090909090909093,lb,2014-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2015,4.7,-5.999999999999995,lb,2015-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2016,4.4,-6.382978723404253,lb,2016-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2017,4.5,2.2727272727272707,lb,2017-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2018,4.3,-4.444444444444451,lb,2018-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2019,4.1,-4.651162790697683,lb,2019-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2020,4.4,7.317073170731736,lb,2020-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2021,4.7,6.818181818181812,lb,2021-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2022,5.9,25.531914893617014,lb,2022-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2023,6.2,5.084745762711851,lb,2023-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+coffee,2024,6.3,1.6129032258064502,lb,2024-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1930,0.45,-15.094339622641506,dozen,1930-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=272
+eggs,1931,0.35,-22.222222222222232,dozen,1931-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=271
+eggs,1932,0.3,-14.28571428571428,dozen,1932-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=270
+eggs,1933,0.29,-3.3333333333333326,dozen,1933-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=269
+eggs,1934,0.33,13.793103448275868,dozen,1934-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=268
+eggs,1935,0.38,15.151515151515138,dozen,1935-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=267
+eggs,1936,0.37,-2.631578947368418,dozen,1936-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=266
+eggs,1937,0.36,-2.7027027027027084,dozen,1937-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=265
+eggs,1938,0.36,0.0,dozen,1938-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=264
+eggs,1939,0.32,-11.111111111111105,dozen,1939-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=263
+eggs,1940,0.33,3.125,dozen,1940-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=262
+eggs,1941,0.4,21.212121212121215,dozen,1941-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=261
+eggs,1942,0.48,19.999999999999996,dozen,1942-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=260
+eggs,1943,0.57,18.75,dozen,1943-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=259
+eggs,1944,0.55,-3.50877192982455,dozen,1944-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=258
+eggs,1945,0.58,5.454545454545445,dozen,1945-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=257
+eggs,1946,0.59,1.724137931034475,dozen,1946-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=256
+eggs,1947,0.7,18.644067796610166,dozen,1947-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=255
+eggs,1948,0.72,2.857142857142869,dozen,1948-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=254
+eggs,1949,0.7,-2.777777777777779,dozen,1949-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=253
+eggs,1950,0.6,-14.28571428571428,dozen,1950-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=252
+eggs,1951,0.74,23.33333333333334,dozen,1951-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=251
+eggs,1952,0.67,-9.459459459459453,dozen,1952-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=250
+eggs,1953,0.7,4.477611940298498,dozen,1953-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=249
+eggs,1954,0.59,-15.714285714285714,dozen,1954-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=248
+eggs,1955,0.61,3.3898305084745894,dozen,1955-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=247
+eggs,1956,0.6,-1.6393442622950838,dozen,1956-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=246
+eggs,1957,0.57,-5.000000000000004,dozen,1957-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=245
+eggs,1958,0.6,5.263157894736836,dozen,1958-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=244
+eggs,1959,0.53,-11.666666666666659,dozen,1959-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=243
+eggs,1960,0.57,7.547169811320731,dozen,1960-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=242
+eggs,1961,0.57,0.0,dozen,1961-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=241
+eggs,1962,0.54,-5.263157894736825,dozen,1962-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=240
+eggs,1963,0.55,1.85185185185186,dozen,1963-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=239
+eggs,1964,0.54,-1.8181818181818188,dozen,1964-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=238
+eggs,1965,0.53,-1.851851851851849,dozen,1965-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=237
+eggs,1966,0.6,13.207547169811317,dozen,1966-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=236
+eggs,1967,0.49,-18.333333333333336,dozen,1967-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=235
+eggs,1968,0.53,8.163265306122458,dozen,1968-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=234
+eggs,1969,0.62,16.981132075471695,dozen,1969-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+eggs,1970,0.61,-1.6129032258064502,dozen,1970-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+eggs,1971,0.53,-13.114754098360649,dozen,1971-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=526
+eggs,1972,0.52,-1.8867924528301883,dozen,1972-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=525
+eggs,1973,0.78,50.0,dozen,1973-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=524
+eggs,1974,0.78,0.0,dozen,1974-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=523
+eggs,1975,0.77,-1.2820512820512886,dozen,1975-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=522
+eggs,1976,0.84,9.090909090909083,dozen,1976-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=521
+eggs,1977,0.82,-2.3809523809523836,dozen,1977-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=520
+eggs,1978,0.81,-1.2195121951219412,dozen,1978-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=519
+eggs,1979,0.825,1.8518518518518379,dozen,1979-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=518
+eggs,1980,0.84,1.81818181818183,dozen,1980-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1981,0.9,7.14285714285714,dozen,1981-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1982,0.87,-3.3333333333333326,dozen,1982-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1983,0.89,2.298850574712641,dozen,1983-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1984,1.0,12.35955056179776,dozen,1984-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1985,0.8,-19.999999999999996,dozen,1985-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1986,0.87,8.749999999999991,dozen,1986-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1987,0.78,-10.344827586206895,dozen,1987-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1988,0.79,1.2820512820512775,dozen,1988-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1989,1.0,26.582278481012644,dozen,1989-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1990,1.01,1.0000000000000009,dozen,1990-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1991,0.99,-1.980198019801982,dozen,1991-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1992,0.86,-13.131313131313128,dozen,1992-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1993,0.91,5.813953488372103,dozen,1993-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1994,0.86,-5.494505494505497,dozen,1994-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1995,0.92,6.976744186046524,dozen,1995-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1996,1.11,20.65217391304348,dozen,1996-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1997,1.06,-4.504504504504503,dozen,1997-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1998,1.04,-1.8867924528301883,dozen,1998-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,1999,0.96,-7.692307692307699,dozen,1999-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2000,0.91,-5.208333333333326,dozen,2000-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2001,0.93,2.19780219780219,dozen,2001-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2002,1.03,10.752688172043001,dozen,2002-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2003,1.24,20.388349514563096,dozen,2003-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2004,1.34,8.064516129032274,dozen,2004-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2005,1.22,-8.955223880597018,dozen,2005-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2006,1.31,7.377049180327866,dozen,2006-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2007,1.68,28.244274809160295,dozen,2007-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2008,1.99,18.452380952380953,dozen,2008-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2009,1.66,-16.582914572864325,dozen,2009-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2010,1.66,0.0,dozen,2010-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2011,1.77,6.626506024096401,dozen,2011-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2012,1.84,3.9548022598870025,dozen,2012-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2013,1.91,3.80434782608694,dozen,2013-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2014,2.02,5.759162303664933,dozen,2014-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2015,2.47,22.277227722772274,dozen,2015-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2016,1.68,-31.983805668016206,dozen,2016-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2017,1.47,-12.5,dozen,2017-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2018,1.74,18.36734693877551,dozen,2018-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2019,1.4,-19.54022988505748,dozen,2019-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2020,1.51,7.857142857142874,dozen,2020-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2021,1.67,10.596026490066212,dozen,2021-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2022,2.86,71.25748502994011,dozen,2022-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2023,2.8,-2.0979020979021046,dozen,2023-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+eggs,2024,3.17,13.214285714285712,dozen,2024-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1930,0.05,0.0,lb,1930-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=273
+flour,1931,0.04,-20.000000000000007,lb,1931-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=272
+flour,1932,0.03,-25.0,lb,1932-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=271
+flour,1933,0.04,33.33333333333335,lb,1933-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=270
+flour,1934,0.05,25.0,lb,1934-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=269
+flour,1935,0.05,0.0,lb,1935-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=268
+flour,1936,0.05,0.0,lb,1936-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=267
+flour,1937,0.05,0.0,lb,1937-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=266
+flour,1938,0.04,-20.000000000000007,lb,1938-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=265
+flour,1939,0.04,0.0,lb,1939-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=264
+flour,1940,0.04,0.0,lb,1940-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=263
+flour,1941,0.05,25.0,lb,1941-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=262
+flour,1942,0.05,0.0,lb,1942-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=261
+flour,1943,0.06,19.999999999999996,lb,1943-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=260
+flour,1944,0.06,0.0,lb,1944-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=259
+flour,1945,0.06,0.0,lb,1945-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=258
+flour,1946,0.07,16.666666666666675,lb,1946-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=257
+flour,1947,0.1,42.85714285714286,lb,1947-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=256
+flour,1948,0.1,0.0,lb,1948-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=255
+flour,1949,0.1,0.0,lb,1949-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=254
+flour,1950,0.1,0.0,lb,1950-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=253
+flour,1951,0.1,0.0,lb,1951-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=252
+flour,1952,0.1,0.0,lb,1952-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=251
+flour,1953,0.1,0.0,lb,1953-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=250
+flour,1954,0.11,9.999999999999986,lb,1954-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=249
+flour,1955,0.11,0.0,lb,1955-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=248
+flour,1956,0.11,0.0,lb,1956-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=247
+flour,1957,0.11,0.0,lb,1957-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=246
+flour,1958,0.11,0.0,lb,1958-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=245
+flour,1959,0.11,0.0,lb,1959-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=244
+flour,1960,0.11,0.0,lb,1960-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=243
+flour,1961,0.11,0.0,lb,1961-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=242
+flour,1962,0.11,0.0,lb,1962-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=241
+flour,1963,0.11,0.0,lb,1963-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=240
+flour,1964,0.11,0.0,lb,1964-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=239
+flour,1965,0.12,9.090909090909083,lb,1965-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=238
+flour,1966,0.12,0.0,lb,1966-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=237
+flour,1967,0.12,0.0,lb,1967-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=236
+flour,1968,0.12,0.0,lb,1968-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=235
+flour,1969,0.12,0.0,lb,1969-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=234
+flour,1970,0.12,0.0,lb,1970-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+flour,1971,0.12,0.0,lb,1971-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=535
+flour,1972,0.12,0.0,lb,1972-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=534
+flour,1973,0.15,25.0,lb,1973-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=533
+flour,1974,0.21,39.99999999999999,lb,1974-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=532
+flour,1975,0.2,-4.761904761904756,lb,1975-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=531
+flour,1976,0.19,-5.000000000000004,lb,1976-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=530
+flour,1977,0.17,-10.526315789473683,lb,1977-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=529
+flour,1978,0.17,0.0,lb,1978-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=528
+flour,1979,0.19,11.764705882352944,lb,1979-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+flour,1980,0.21,10.526315789473673,lb,1980-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1981,0.22,4.761904761904767,lb,1981-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1982,0.22,0.0,lb,1982-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1983,0.22,0.0,lb,1983-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1984,0.21,-4.545454545454552,lb,1984-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1985,0.21,0.0,lb,1985-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1986,0.21,0.0,lb,1986-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1987,0.21,0.0,lb,1987-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1988,0.21,0.0,lb,1988-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1989,0.24,14.28571428571428,lb,1989-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1990,0.25,4.166666666666674,lb,1990-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1991,0.23,-7.9999999999999964,lb,1991-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1992,0.24,4.347826086956519,lb,1992-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1993,0.23,-4.1666666666666625,lb,1993-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1994,0.23,0.0,lb,1994-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1995,0.25,8.695652173913038,lb,1995-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1996,0.29,15.999999999999993,lb,1996-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1997,0.3,3.4482758620689724,lb,1997-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1998,0.3,0.0,lb,1998-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,1999,0.29,-3.3333333333333326,lb,1999-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2000,0.29,0.0,lb,2000-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2001,0.3,3.4482758620689724,lb,2001-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2002,0.31,3.3333333333333437,lb,2002-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2003,0.31,0.0,lb,2003-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2004,0.3,-3.2258064516129115,lb,2004-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2005,0.32,6.666666666666665,lb,2005-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2006,0.33,3.125,lb,2006-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2007,0.36,9.090909090909083,lb,2007-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2008,0.51,41.66666666666667,lb,2008-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2009,0.5,-1.9607843137254943,lb,2009-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2010,0.48,-4.0000000000000036,lb,2010-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2011,0.52,8.333333333333348,lb,2011-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2012,0.52,0.0,lb,2012-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2013,0.52,0.0,lb,2013-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2014,0.53,1.9230769230769162,lb,2014-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2015,0.52,-1.8867924528301883,lb,2015-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2016,0.53,1.9230769230769162,lb,2016-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2017,0.51,-3.7735849056603765,lb,2017-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2018,0.46,-9.80392156862745,lb,2018-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2019,0.44,-4.34782608695653,lb,2019-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2020,0.41,-6.818181818181824,lb,2020-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2021,0.4,-2.4390243902438935,lb,2021-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2022,0.49,22.499999999999986,lb,2022-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2023,0.55,12.244897959183687,lb,2023-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+flour,2024,0.57,3.6363636363636154,lb,2024-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+gas,1930,0.2,-4.761904761904756,gallon,1930-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1931,0.17,-15.000000000000002,gallon,1931-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1932,0.18,5.88235294117645,gallon,1932-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1933,0.18,0.0,gallon,1933-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1934,0.19,5.555555555555558,gallon,1934-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1935,0.19,0.0,gallon,1935-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1936,0.19,0.0,gallon,1936-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1937,0.2,5.263157894736836,gallon,1937-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1938,0.2,0.0,gallon,1938-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1939,0.19,-5.000000000000004,gallon,1939-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1940,0.18,-5.263157894736848,gallon,1940-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1941,0.19,5.555555555555558,gallon,1941-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1942,0.2,5.263157894736836,gallon,1942-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1943,0.21,4.999999999999982,gallon,1943-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1944,0.21,0.0,gallon,1944-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1945,0.21,0.0,gallon,1945-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1946,0.21,0.0,gallon,1946-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1947,0.23,9.523809523809534,gallon,1947-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1948,0.26,13.043478260869556,gallon,1948-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1949,0.27,3.8461538461538547,gallon,1949-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1950,0.27,0.0,gallon,1950-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1951,0.27,0.0,gallon,1951-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1952,0.27,0.0,gallon,1952-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1953,0.27,0.0,gallon,1953-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1954,0.29,7.407407407407396,gallon,1954-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1955,0.29,0.0,gallon,1955-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1956,0.29,0.0,gallon,1956-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1957,0.3,3.4482758620689724,gallon,1957-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1958,0.31,3.3333333333333437,gallon,1958-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1959,0.3,-3.2258064516129115,gallon,1959-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1960,0.31,3.3333333333333437,gallon,1960-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1961,0.31,0.0,gallon,1961-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1962,0.31,0.0,gallon,1962-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1963,0.31,0.0,gallon,1963-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1964,0.3,-3.2258064516129115,gallon,1964-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1965,0.3,0.0,gallon,1965-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1966,0.31,3.3333333333333437,gallon,1966-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1967,0.32,3.2258064516129004,gallon,1967-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1968,0.33,3.125,gallon,1968-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1969,0.34,3.0303030303030276,gallon,1969-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1970,0.35,2.941176470588225,gallon,1970-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1971,0.36,2.857142857142869,gallon,1971-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1972,0.36,0.0,gallon,1972-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1973,0.36,0.0,gallon,1973-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1974,0.39,8.333333333333348,gallon,1974-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1975,0.53,35.897435897435905,gallon,1975-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1976,0.57,7.547169811320731,gallon,1976-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1977,0.59,3.5087719298245723,gallon,1977-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1978,0.62,5.084745762711873,gallon,1978-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1979,0.63,1.6129032258064502,gallon,1979-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1980,0.86,36.50793650793651,gallon,1980-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1981,1.19,38.372093023255815,gallon,1981-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1982,1.31,10.084033613445387,gallon,1982-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1983,1.22,-6.870229007633588,gallon,1983-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1984,1.16,-4.918032786885251,gallon,1984-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1985,1.13,-2.5862068965517238,gallon,1985-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1986,1.12,-0.8849557522123686,gallon,1986-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1987,0.86,-23.214285714285722,gallon,1987-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1988,0.9,4.651162790697683,gallon,1988-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1989,0.9,0.0,gallon,1989-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1990,1.0,11.111111111111116,gallon,1990-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1991,1.14,13.99999999999999,gallon,1991-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1992,1.13,-0.8771929824561431,gallon,1992-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1993,1.07077777777778,-5.240904621435383,gallon,1993-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,1994,1.07783333333333,0.6589187506480298,gallon,1994-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,1995,1.15666666666667,7.314055976496703,gallon,1995-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,1996,1.23,6.340057636887297,gallon,1996-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1997,1.23,0.0,gallon,1997-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,1998,1.07225,-12.825203252032525,gallon,1998-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,1999,1.17516666666667,9.598196937903491,gallon,1999-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2000,1.51,28.49241242376932,gallon,2000-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,2001,1.46616666666667,-2.9028697571741757,gallon,2001-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2002,1.36,-7.241104922132746,gallon,2002-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,2003,1.60108333333333,17.726715686274265,gallon,2003-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2004,1.89125,18.123145786707173,gallon,2004-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2005,2.31216666666667,22.256003525005674,gallon,2005-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2006,2.59,12.016146471563305,gallon,2006-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,2007,2.8455,9.864864864864863,gallon,2007-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2008,3.30508333333333,16.151232940900726,gallon,2008-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2009,2.39666666666667,-27.485439096341324,gallon,2009-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2010,2.79,16.411682892906644,gallon,2010-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,2011,3.53,26.52329749103941,gallon,2011-07-02,https://www.energy.gov/eere/vehicles/fact-741-august-20-2012-historical-gasoline-prices-1929-2011
+gas,2012,3.68616666666667,4.423984891407096,gallon,2012-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2013,3.57641666666667,-2.977347741556269,gallon,2013-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2014,3.442,-3.75841741035029,gallon,2014-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2015,2.513,-26.990122022080186,gallon,2015-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2016,2.2525,-10.366096299243932,gallon,2016-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2017,2.53033333333333,12.334443211246615,gallon,2017-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2018,2.81733333333333,11.342379133184055,gallon,2018-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2019,2.68575,-4.670492191197228,gallon,2019-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2020,2.25975,-15.86149120357443,gallon,2020-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2021,3.09375,36.906737470959186,gallon,2021-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2022,4.06383333333333,31.356228956228826,gallon,2022-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2023,3.634,-10.577041381290165,gallon,2023-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+gas,2024,3.42675,-5.70308200330214,gallon,2024-07-02,https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=m&n=pet&s=emm_epm0_pte_nus_dpg
+house,1954,18281.5,0.6745966187565289,average house,1954-07-02,https://dqydj.com/historical-home-prices/
+house,1955,18346.24,0.35412849055056483,average house,1955-07-02,https://dqydj.com/historical-home-prices/
+house,1956,18391.74,0.24800722109816764,average house,1956-07-02,https://dqydj.com/historical-home-prices/
+house,1957,18904.47,2.7878275791197504,average house,1957-07-02,https://dqydj.com/historical-home-prices/
+house,1958,19179.21,1.4533070749933596,average house,1958-07-02,https://dqydj.com/historical-home-prices/
+house,1959,19163.46,-0.08212017074739064,average house,1959-07-02,https://dqydj.com/historical-home-prices/
+house,1960,19271.9566666667,0.5661642869643657,average house,1960-07-02,https://dqydj.com/historical-home-prices/
+house,1961,19364.7008333333,0.4812389746963852,average house,1961-07-02,https://dqydj.com/historical-home-prices/
+house,1962,19579.9425,1.111515579399991,average house,1962-07-02,https://dqydj.com/historical-home-prices/
+house,1963,19784.68,1.0456491381422461,average house,1963-07-02,https://dqydj.com/historical-home-prices/
+house,1964,20092.67,1.5567095348522075,average house,1964-07-02,https://dqydj.com/historical-home-prices/
+house,1965,20367.41,1.3673643174351824,average house,1965-07-02,https://dqydj.com/historical-home-prices/
+house,1966,20705.15,1.6582373507480819,average house,1966-07-02,https://dqydj.com/historical-home-prices/
+house,1967,20993.89,1.3945322782012992,average house,1967-07-02,https://dqydj.com/historical-home-prices/
+house,1968,21594.11,2.8590223155403827,average house,1968-07-02,https://dqydj.com/historical-home-prices/
+house,1969,22997.55,6.499179637410379,average house,1969-07-02,https://dqydj.com/historical-home-prices/
+house,1970,24843.7266666667,8.027710198115457,average house,1970-07-02,https://dqydj.com/historical-home-prices/
+house,1971,26215.6716666667,5.522299526184882,average house,1971-07-02,https://dqydj.com/historical-home-prices/
+house,1972,27298.87,4.131873282158116,average house,1972-07-02,https://dqydj.com/historical-home-prices/
+house,1973,27865.85,2.0769357852541193,average house,1973-07-02,https://dqydj.com/historical-home-prices/
+house,1974,29965.7633333333,7.535795008346424,average house,1974-07-02,https://dqydj.com/historical-home-prices/
+house,1975,32628.7591666667,8.886794585243019,average house,1975-07-02,https://dqydj.com/historical-home-prices/
+house,1976,35001.96,7.273340739716949,average house,1976-07-02,https://dqydj.com/historical-home-prices/
+house,1977,39198.76,11.990185692458377,average house,1977-07-02,https://dqydj.com/historical-home-prices/
+house,1978,45153.85,15.192036686874788,average house,1978-07-02,https://dqydj.com/historical-home-prices/
+house,1979,52101.4608333333,15.38653034754136,average house,1979-07-02,https://dqydj.com/historical-home-prices/
+house,1980,57170.64,9.729437688671405,average house,1980-07-02,https://dqydj.com/historical-home-prices/
+house,1981,60805.0416666667,6.357112088769168,average house,1981-07-02,https://dqydj.com/historical-home-prices/
+house,1982,62062.43,2.067901441834885,average house,1982-07-02,https://dqydj.com/historical-home-prices/
+house,1983,63978.58,3.0874556474827175,average house,1983-07-02,https://dqydj.com/historical-home-prices/
+house,1984,66994.265,4.71358539061042,average house,1984-07-02,https://dqydj.com/historical-home-prices/
+house,1985,70858.14,5.767471290266424,average house,1985-07-02,https://dqydj.com/historical-home-prices/
+house,1986,77119.4241666667,8.83636540087942,average house,1986-07-02,https://dqydj.com/historical-home-prices/
+house,1987,84026.5658333333,8.95642277066182,average house,1987-07-02,https://dqydj.com/historical-home-prices/
+house,1988,90208.71,7.3573685956998425,average house,1988-07-02,https://dqydj.com/historical-home-prices/
+house,1989,95739.39,6.130982252157247,average house,1989-07-02,https://dqydj.com/historical-home-prices/
+house,1990,97544.6,1.885545750813744,average house,1990-07-02,https://dqydj.com/historical-home-prices/
+house,1991,97213.2408333333,-0.33970016450598495,average house,1991-07-02,https://dqydj.com/historical-home-prices/
+house,1992,99646.49,2.503001798734772,average house,1992-07-02,https://dqydj.com/historical-home-prices/
+house,1993,102054.92,2.416974245655812,average house,1993-07-02,https://dqydj.com/historical-home-prices/
+house,1994,105454.1075,3.3307433879718795,average house,1994-07-02,https://dqydj.com/historical-home-prices/
+house,1995,108176.501666667,2.58159139668126,average house,1995-07-02,https://dqydj.com/historical-home-prices/
+house,1996,111377.8575,2.9593819212212935,average house,1996-07-02,https://dqydj.com/historical-home-prices/
+house,1997,114547.18,2.8455588670306398,average house,1997-07-02,https://dqydj.com/historical-home-prices/
+house,1998,120084.07,4.833720044439338,average house,1998-07-02,https://dqydj.com/historical-home-prices/
+house,1999,127411.868333333,6.102223495033932,average house,1999-07-02,https://dqydj.com/historical-home-prices/
+house,2000,135933.87,6.688546191295042,average house,2000-07-02,https://dqydj.com/historical-home-prices/
+house,2001,145348.91,6.926191389975145,average house,2001-07-02,https://dqydj.com/historical-home-prices/
+house,2002,155585.72,7.042921752904774,average house,2002-07-02,https://dqydj.com/historical-home-prices/
+house,2003,167489.28,7.650804971047465,average house,2003-07-02,https://dqydj.com/historical-home-prices/
+house,2004,183247.77,9.408655885319938,average house,2004-07-02,https://dqydj.com/historical-home-prices/
+house,2005,202346.97,10.422609781281377,average house,2005-07-02,https://dqydj.com/historical-home-prices/
+house,2006,214126.39,5.821396781973065,average house,2006-07-02,https://dqydj.com/historical-home-prices/
+house,2007,213944.579166667,-0.08490818592374882,average house,2007-07-02,https://dqydj.com/historical-home-prices/
+house,2008,196526.54,-8.141379059246,average house,2008-07-02,https://dqydj.com/historical-home-prices/
+house,2009,185016.243333333,-5.856866287203255,average house,2009-07-02,https://dqydj.com/historical-home-prices/
+house,2010,179806.13,-2.816030224949617,average house,2010-07-02,https://dqydj.com/historical-home-prices/
+house,2011,172230.845,-4.213029333315832,average house,2011-07-02,https://dqydj.com/historical-home-prices/
+house,2012,176973.206666667,2.753491493737381,average house,2012-07-02,https://dqydj.com/historical-home-prices/
+house,2013,189268.43,6.947505537655374,average house,2013-07-02,https://dqydj.com/historical-home-prices/
+house,2014,198532.9,4.894883948686002,average house,2014-07-02,https://dqydj.com/historical-home-prices/
+house,2015,208816.96,5.180028096098943,average house,2015-07-02,https://dqydj.com/historical-home-prices/
+house,2016,220627.619166667,5.655986547580705,average house,2016-07-02,https://dqydj.com/historical-home-prices/
+house,2017,234224.37,6.162760077223939,average house,2017-07-02,https://dqydj.com/historical-home-prices/
+house,2018,248632.470833333,6.151409792812346,average house,2018-07-02,https://dqydj.com/historical-home-prices/
+house,2019,261274.5,5.084625159495504,average house,2019-07-02,https://dqydj.com/historical-home-prices/
+house,2020,281768.1425,7.84372087593701,average house,2020-07-02,https://dqydj.com/historical-home-prices/
+house,2021,328625.511666667,16.6297611755974,average house,2021-07-02,https://dqydj.com/historical-home-prices/
+house,2022,373190.59,13.561052551068054,average house,2022-07-02,https://dqydj.com/historical-home-prices/
+house,2023,391556.135833333,4.9212242552345575,average house,2023-07-02,https://dqydj.com/historical-home-prices/
+house,2024,413301.64,5.553610881460691,average house,2024-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1954,216296.79,0.36161806673278285,average house,1954-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1955,217667.700833333,0.6338100687176107,average house,1955-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1956,214937.38,-1.2543527693268386,average house,1956-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1957,213786.451666667,-0.535471463052628,average house,1957-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1958,211125.736666667,-1.2445667062890187,average house,1958-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1959,208845.32,-1.0801225386687041,average house,1959-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1960,207007.75,-0.8798712846426304,average house,1960-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1961,205796.77,-0.5849925908571141,average house,1961-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1962,205621.92,-0.0849624607810795,average house,1962-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1963,205225.55,-0.19276641323066057,average house,1963-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1964,205787.66,0.273898644686299,average house,1964-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1965,205351.89,-0.21175710924551394,average house,1965-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1966,202661.15,-1.3103069078156615,average house,1966-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1967,199928.22,-1.3485219046669772,average house,1967-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1968,197220.683333333,-1.3542543752287695,average house,1968-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1969,199146.35,0.9764019848832683,average house,1969-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1970,203254.48,2.062869844212556,average house,1970-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1971,205663.27,1.185110409374479,average house,1971-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1972,207383.511666667,0.83643601828709,average house,1972-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1973,199446.96,-3.8269926103979057,average house,1973-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1974,193110.05,-3.1772407060002283,average house,1974-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1975,192621.71,-0.25288171174933094,average house,1975-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1976,195360.593333333,1.4218975282344948,average house,1976-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1977,205374.74,5.1259808827363695,average house,1977-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1978,219789.36,7.018691782640851,average house,1978-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1979,228050.21,3.758530440236063,average house,1979-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1980,220445.37,-3.334721770262783,average house,1980-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1981,212491.28,-3.6081909998835537,average house,1981-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1982,204350.64,-3.831046619889522,average house,1982-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1983,204054.2,-0.14506438541127542,average house,1983-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1984,204857.464166667,0.3936523564165739,average house,1984-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1985,209235.64,2.1371815038045305,average house,1985-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1986,223489.05,6.812132961669426,average house,1986-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1987,234887.54,5.100245403522008,average house,1987-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1988,242293.13,3.1528236874548643,average house,1988-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1989,245335.873333333,1.2558108161519144,average house,1989-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1990,237235.5425,-3.3017311016425355,average house,1990-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1991,226757.393333333,-4.416770377763701,average house,1991-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1992,225597.581666667,-0.5114768914992185,average house,1992-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1993,224416.28,-0.523632238404248,average house,1993-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1994,226003.74,0.7073729232121684,average house,1994-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1995,225508.745,-0.21902071178113713,average house,1995-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1996,225574.88,0.029327022329006525,average house,1996-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1997,226688.49,0.49367642354503083,average house,1997-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1998,234005.3,3.2276936513186083,average house,1998-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),1999,242963.67,3.8282765390356577,average house,1999-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2000,250742.87,3.201795560628451,average house,2000-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2001,260752.8,3.992109526384535,average house,2001-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2002,274743.54,5.365518606128106,average house,2002-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2003,289211.245,5.265894513843716,average house,2003-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2004,308133.955833333,6.542868287618986,average house,2004-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2005,329080.0,6.797707221204963,average house,2005-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2006,337420.74,2.5345630241886408,average house,2006-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2007,327852.18,-2.835794859557239,average house,2007-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2008,290025.52,-11.537718004498243,average house,2008-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2009,273981.323333333,-5.531994793653672,average house,2009-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2010,261957.04,-4.388723722859,average house,2010-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2011,243244.053333333,-7.143532644385897,average house,2011-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2012,244846.54,0.6587978800332683,average house,2012-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2013,258075.66,5.403025094820624,average house,2013-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2014,266395.3225,3.223730010028847,average house,2014-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2015,279852.92,5.051739412579193,average house,2015-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2016,291991.535,4.3374980686283315,average house,2016-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2017,303528.53,3.951140227404215,average house,2017-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2018,314520.42,3.6213696287462405,average house,2018-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2019,324626.63,3.2132126747128176,average house,2019-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2020,345807.27,6.5246156792497345,average house,2020-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2021,385038.26,11.344755707420484,average house,2021-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2022,405102.3,5.210921117293643,average house,2022-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2023,408169.748333333,0.7572033862392358,average house,2023-07-02,https://dqydj.com/historical-home-prices/
+house (adjusted),2024,418524.044166667,2.536762186716035,average house,2024-07-02,https://dqydj.com/historical-home-prices/
+milk,1930,0.28,-3.44827586206895,1/2 gal,1930-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1931,0.25,-10.71428571428572,1/2 gal,1931-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1932,0.21,-16.000000000000004,1/2 gal,1932-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1933,0.21,0.0,1/2 gal,1933-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1934,0.22,4.761904761904767,1/2 gal,1934-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1935,0.23,4.545454545454541,1/2 gal,1935-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1936,0.24,4.347826086956519,1/2 gal,1936-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1937,0.25,4.166666666666674,1/2 gal,1937-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1938,0.25,0.0,1/2 gal,1938-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1939,0.24,-4.0000000000000036,1/2 gal,1939-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1940,0.26,8.333333333333348,1/2 gal,1940-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1941,0.27,3.8461538461538547,1/2 gal,1941-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1942,0.3,11.111111111111093,1/2 gal,1942-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1943,0.31,3.3333333333333437,1/2 gal,1943-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1944,0.31,0.0,1/2 gal,1944-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1945,0.31,0.0,1/2 gal,1945-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1946,0.35,12.903225806451601,1/2 gal,1946-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1947,0.39,11.428571428571432,1/2 gal,1947-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1948,0.44,12.82051282051282,1/2 gal,1948-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1949,0.42,-4.545454545454552,1/2 gal,1949-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1950,0.41,-2.3809523809523836,1/2 gal,1950-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1951,0.46,12.195121951219523,1/2 gal,1951-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1952,0.48,4.347826086956519,1/2 gal,1952-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1953,0.47,-2.083333333333337,1/2 gal,1953-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1954,0.46,-2.127659574468077,1/2 gal,1954-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1955,0.46,0.0,1/2 gal,1955-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1956,0.48,4.347826086956519,1/2 gal,1956-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1957,0.5,4.166666666666674,1/2 gal,1957-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1958,0.51,2.0000000000000018,1/2 gal,1958-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1959,0.51,0.0,1/2 gal,1959-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1960,0.52,1.9607843137254832,1/2 gal,1960-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1961,0.52,0.0,1/2 gal,1961-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1962,0.52,0.0,1/2 gal,1962-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1963,0.52,0.0,1/2 gal,1963-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1964,0.53,1.9230769230769162,1/2 gal,1964-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1965,0.53,0.0,1/2 gal,1965-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1966,0.56,5.660377358490565,1/2 gal,1966-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1967,0.57,1.7857142857142572,1/2 gal,1967-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1968,0.61,7.017543859649122,1/2 gal,1968-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1969,0.63,3.2786885245901676,1/2 gal,1969-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1970,0.66,4.761904761904767,1/2 gal,1970-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+milk,1971,0.59,-10.60606060606062,1/2 gal,1971-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+milk,1972,0.6,1.6949152542372836,1/2 gal,1972-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+milk,1973,0.65,8.333333333333348,1/2 gal,1973-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+milk,1974,0.78,19.999999999999996,1/2 gal,1974-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+milk,1975,0.79,1.2820512820512775,1/2 gal,1975-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+milk,1976,0.83,5.063291139240489,1/2 gal,1976-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+milk,1977,0.84,1.2048192771084265,1/2 gal,1977-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+milk,1978,0.86,2.3809523809523725,1/2 gal,1978-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+milk,1996,2.62,204.6511627906977,1/2 gal,1996-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,1997,2.61,-0.3816793893129833,1/2 gal,1997-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,1998,2.7,3.4482758620689724,1/2 gal,1998-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,1999,2.84,5.185185185185182,1/2 gal,1999-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2000,2.78,-2.1126760563380254,1/2 gal,2000-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2001,2.88,3.597122302158273,1/2 gal,2001-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2002,2.76,-4.166666666666674,1/2 gal,2002-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2003,2.76,0.0,1/2 gal,2003-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2004,3.16,14.492753623188426,1/2 gal,2004-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2005,3.19,0.9493670886075778,1/2 gal,2005-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2006,3.08,-3.4482758620689613,1/2 gal,2006-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2007,3.5,13.636363636363624,1/2 gal,2007-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2008,3.8,8.571428571428562,1/2 gal,2008-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2009,3.11,-18.157894736842106,1/2 gal,2009-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2010,3.26,4.8231511254019255,1/2 gal,2010-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2011,3.57,9.509202453987742,1/2 gal,2011-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2012,3.49,-2.2408963585434094,1/2 gal,2012-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2013,3.46,-0.8595988538682042,1/2 gal,2013-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2014,3.69,6.647398843930641,1/2 gal,2014-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2015,3.42,-7.317073170731703,1/2 gal,2015-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2016,3.2,-6.43274853801169,1/2 gal,2016-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2017,3.23,0.9374999999999911,1/2 gal,2017-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2018,2.9,-10.216718266253878,1/2 gal,2018-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2019,3.04,4.827586206896561,1/2 gal,2019-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2020,3.32,9.210526315789469,1/2 gal,2020-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2021,3.54,6.626506024096401,1/2 gal,2021-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2022,4.09,15.536723163841803,1/2 gal,2022-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2023,4.03,-1.4669926650366705,1/2 gal,2023-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+milk,2024,3.98,-1.2406947890818976,1/2 gal,2024-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1930,0.36,-5.263157894736848,lb,1930-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1931,0.3,-16.666666666666664,lb,1931-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1932,0.22,-26.66666666666666,lb,1932-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1933,0.2,-9.090909090909083,lb,1933-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1934,0.26,30.000000000000004,lb,1934-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1935,0.36,38.46153846153846,lb,1935-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1936,0.34,-5.5555555555555465,lb,1936-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1937,0.37,8.823529411764696,lb,1937-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1938,0.33,-10.8108108108108,lb,1938-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1939,0.3,-9.090909090909093,lb,1939-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1940,0.28,-6.666666666666654,lb,1940-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1941,0.34,21.42857142857142,lb,1941-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1942,0.41,20.58823529411764,lb,1942-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1943,0.4,-2.4390243902438935,lb,1943-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1944,0.37,-7.500000000000007,lb,1944-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1945,0.37,0.0,lb,1945-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1946,0.49,32.432432432432435,lb,1946-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1947,0.72,46.93877551020409,lb,1947-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1948,0.77,6.944444444444442,lb,1948-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1949,0.74,-3.8961038961038974,lb,1949-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1950,0.75,1.3513513513513598,lb,1950-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1951,0.79,5.3333333333333455,lb,1951-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1952,0.8,1.2658227848101333,lb,1952-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1953,0.83,3.7499999999999867,lb,1953-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1954,0.86,3.6144578313253017,lb,1954-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1955,0.79,-8.139534883720923,lb,1955-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1956,0.78,-1.2658227848101222,lb,1956-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1957,0.87,11.538461538461542,lb,1957-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1958,0.92,5.747126436781613,lb,1958-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1959,0.85,-7.608695652173925,lb,1959-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1960,0.86,1.17647058823529,lb,1960-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1961,0.88,2.3255813953488413,lb,1961-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1962,0.9,2.2727272727272707,lb,1962-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1963,0.88,-2.2222222222222254,lb,1963-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1964,0.88,0.0,lb,1964-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1965,0.97,10.22727272727273,lb,1965-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1966,1.06,9.278350515463929,lb,1966-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1967,1.0,-5.660377358490576,lb,1967-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1968,1.03,3.0000000000000027,lb,1968-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1969,1.12,8.737864077669922,lb,1969-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1970,1.16,3.5714285714285587,lb,1970-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+pork chop,1971,1.08,-6.896551724137923,lb,1971-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+pork chop,1972,1.25,15.740740740740744,lb,1972-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+pork chop,1973,1.56,24.8,lb,1973-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+pork chop,1974,1.57,0.6410256410256387,lb,1974-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+pork chop,1975,1.86,18.47133757961783,lb,1975-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+pork chop,1976,1.85,-0.5376344086021501,lb,1976-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+pork chop,1977,1.81,-2.1621621621621623,lb,1977-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+pork chop,1978,1.93,6.6298342541436295,lb,1978-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+pork chop,1979,1.94,0.5181347150259086,lb,1979-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+pork chop,1980,1.95,0.5154639175257714,lb,1980-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1981,2.13,9.23076923076922,lb,1981-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1982,2.39,12.206572769953073,lb,1982-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1983,2.37,-0.8368200836820106,lb,1983-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1984,2.38,0.42194092827003704,lb,1984-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1985,2.34,-1.6806722689075682,lb,1985-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1986,2.59,10.68376068376069,lb,1986-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1987,2.82,8.880308880308885,lb,1987-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1988,2.77,-1.773049645390068,lb,1988-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1989,2.85,2.8880866425992746,lb,1989-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1990,3.26,14.38596491228068,lb,1990-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1991,3.26,0.0,lb,1991-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1992,3.15,-3.3742331288343475,lb,1992-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1993,3.24,2.857142857142869,lb,1993-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1994,3.22,-0.6172839506172867,lb,1994-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1995,3.21,-0.31055900621118626,lb,1995-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1996,3.41,6.230529595015577,lb,1996-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1997,3.48,2.052785923753664,lb,1997-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1998,3.23,-7.183908045977017,lb,1998-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,1999,3.17,-1.8575851393188847,lb,1999-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2000,3.37,6.309148264984232,lb,2000-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2001,3.52,4.451038575667643,lb,2001-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2002,3.4,-3.409090909090917,lb,2002-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2003,3.13,-7.941176470588241,lb,2003-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2004,3.08,-1.5974440894568676,lb,2004-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2005,3.25,5.519480519480524,lb,2005-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2006,3.28,0.9230769230769154,lb,2006-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2007,3.29,0.3048780487804992,lb,2007-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2008,3.46,5.167173252279622,lb,2008-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2009,3.35,-3.1791907514450823,lb,2009-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2010,3.45,2.9850746268656803,lb,2010-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2011,3.73,8.115942028985511,lb,2011-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2012,3.73,0.0,lb,2012-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2013,3.68,-1.3404825737265313,lb,2013-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2014,4.19,13.858695652173925,lb,2014-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2015,4.11,-1.9093078758949944,lb,2015-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2016,3.87,-5.839416058394164,lb,2016-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2017,3.73,-3.6175710594315236,lb,2017-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2018,3.8,1.8766756032171594,lb,2018-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2019,3.84,1.0526315789473717,lb,2019-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2020,4.12,7.291666666666674,lb,2020-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2021,4.22,2.4271844660194164,lb,2021-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2022,4.55,7.81990521327014,lb,2022-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2023,4.5,-1.098901098901095,lb,2023-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+pork chop,2024,4.53,0.6666666666666821,lb,2024-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1930,0.43,-6.521739130434789,lb,1930-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1931,0.35,-18.6046511627907,lb,1931-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1932,0.3,-14.28571428571428,lb,1932-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1933,0.26,-13.33333333333333,lb,1933-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1934,0.28,7.692307692307709,lb,1934-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1935,0.36,28.57142857142856,lb,1935-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1936,0.34,-5.5555555555555465,lb,1936-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1937,0.39,14.705882352941169,lb,1937-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1938,0.35,-10.256410256410264,lb,1938-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1939,0.36,2.857142857142869,lb,1939-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1940,0.36,0.0,lb,1940-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1941,0.39,8.333333333333348,lb,1941-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1942,0.44,12.82051282051282,lb,1942-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1943,0.44,0.0,lb,1943-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1944,0.41,-6.818181818181824,lb,1944-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1945,0.41,0.0,lb,1945-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1946,0.52,26.82926829268293,lb,1946-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1947,0.76,46.153846153846146,lb,1947-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1948,0.91,19.736842105263165,lb,1948-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1949,0.85,-6.593406593406604,lb,1949-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1950,0.94,10.588235294117654,lb,1950-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1951,1.09,15.957446808510657,lb,1951-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1952,1.11,1.8348623853211121,lb,1952-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1953,0.92,-17.117117117117118,lb,1953-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1954,0.91,-1.0869565217391353,lb,1954-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1955,0.9,-1.098901098901095,lb,1955-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1956,0.88,-2.2222222222222254,lb,1956-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1957,0.94,6.818181818181812,lb,1957-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1958,1.04,10.63829787234043,lb,1958-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1959,1.07,2.8846153846153966,lb,1959-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1960,1.06,-0.9345794392523366,lb,1960-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1961,1.04,-1.8867924528301883,lb,1961-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1962,1.08,3.8461538461538547,lb,1962-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1963,1.06,-1.851851851851849,lb,1963-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1964,1.04,-1.8867924528301883,lb,1964-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1965,1.08,3.8461538461538547,lb,1965-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1966,1.11,2.77777777777779,lb,1966-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1967,1.1,-0.9009009009009028,lb,1967-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1968,1.14,3.6363636363636154,lb,1968-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1969,1.27,11.403508771929838,lb,1969-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1970,1.3,2.3622047244094446,lb,1970-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+round steak,1971,1.36,4.615384615384621,lb,1971-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+round steak,1972,1.47,8.088235294117641,lb,1972-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+round steak,1973,1.74,18.36734693877551,lb,1973-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+round steak,1974,1.79,2.8735632183908066,lb,1974-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+round steak,1975,1.88,5.027932960893855,lb,1975-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+round steak,1976,1.78,-5.319148936170204,lb,1976-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+round steak,1977,1.76,-1.1235955056179803,lb,1977-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+round steak,1978,1.89,7.386363636363624,lb,1978-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+round steak,1979,2.33,23.2804232804233,lb,1979-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+round steak,1980,2.77,18.884120171673825,lb,1980-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1981,2.86,3.2490974729241895,lb,1981-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1982,2.95,3.146853146853168,lb,1982-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1983,2.9,-1.6949152542372947,lb,1983-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1984,2.91,0.34482758620690834,lb,1984-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1985,2.82,-3.0927835051546504,lb,1985-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1986,2.77,-1.773049645390068,lb,1986-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1987,2.89,4.332129963898912,lb,1987-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1988,2.99,3.460207612456756,lb,1988-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1989,3.12,4.347826086956519,lb,1989-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1990,3.32,6.41025641025641,lb,1990-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1991,3.41,2.7108433734939874,lb,1991-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1992,3.38,-0.8797653958944385,lb,1992-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1993,3.4,0.591715976331364,lb,1993-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1994,3.25,-4.411764705882348,lb,1994-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1995,3.21,-1.2307692307692353,lb,1995-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1996,3.12,-2.8037383177570097,lb,1996-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1997,3.1,-0.6410256410256387,lb,1997-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1998,3.09,-0.3225806451612967,lb,1998-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,1999,3.13,1.2944983818770295,lb,1999-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2000,3.24,3.514376996805124,lb,2000-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2001,3.5,8.024691358024683,lb,2001-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2002,3.5,0.0,lb,2002-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2003,3.84,9.714285714285719,lb,2003-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2004,4.13,7.552083333333326,lb,2004-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2005,4.1,-0.7263922518159882,lb,2005-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2006,4.0,-2.4390243902438935,lb,2006-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2007,4.11,2.750000000000008,lb,2007-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2008,4.24,3.1630170316301776,lb,2008-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2009,4.14,-2.358490566037752,lb,2009-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2010,4.28,3.3816425120773097,lb,2010-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2011,4.61,7.710280373831768,lb,2011-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2012,4.79,3.90455531453362,lb,2012-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2013,4.88,1.8789144050104456,lb,2013-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2014,5.68,16.393442622950815,lb,2014-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2015,6.15,8.27464788732395,lb,2015-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2016,5.9,-4.0650406504065035,lb,2016-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2017,5.79,-1.8644067796610209,lb,2017-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2018,5.71,-1.3816925734024155,lb,2018-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2019,5.83,2.1015761821365997,lb,2019-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2020,6.53,12.006861063464846,lb,2020-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2021,6.97,6.73813169984685,lb,2021-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2022,7.26,4.160688665710177,lb,2022-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2023,7.57,4.269972451790638,lb,2023-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+round steak,2024,8.1,7.001321003963001,lb,2024-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1930,0.06,0.0,lb,1930-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1931,0.06,0.0,lb,1931-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1932,0.05,-16.666666666666664,lb,1932-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1933,0.05,0.0,lb,1933-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1934,0.06,19.999999999999996,lb,1934-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1935,0.06,0.0,lb,1935-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1936,0.06,0.0,lb,1936-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1937,0.06,0.0,lb,1937-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1938,0.05,-16.666666666666664,lb,1938-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1939,0.05,0.0,lb,1939-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1940,0.05,0.0,lb,1940-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1941,0.06,19.999999999999996,lb,1941-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1942,0.07,16.666666666666675,lb,1942-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1943,0.07,0.0,lb,1943-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1944,0.07,0.0,lb,1944-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1945,0.07,0.0,lb,1945-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1946,0.08,14.28571428571428,lb,1946-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1947,0.1,25.0,lb,1947-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1948,0.09,-10.000000000000009,lb,1948-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1949,0.1,11.111111111111116,lb,1949-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1950,0.1,0.0,lb,1950-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1951,0.1,0.0,lb,1951-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1952,0.1,0.0,lb,1952-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1953,0.11,9.999999999999986,lb,1953-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1954,0.11,0.0,lb,1954-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1955,0.1,-9.090909090909083,lb,1955-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1956,0.11,9.999999999999986,lb,1956-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1957,0.11,0.0,lb,1957-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1958,0.11,0.0,lb,1958-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1959,0.11,0.0,lb,1959-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1960,0.12,9.090909090909083,lb,1960-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1961,0.12,0.0,lb,1961-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1962,0.12,0.0,lb,1962-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1963,0.14,16.666666666666675,lb,1963-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1964,0.13,-7.142857142857151,lb,1964-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1965,0.12,-7.692307692307699,lb,1965-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1966,0.12,0.0,lb,1966-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1967,0.12,0.0,lb,1967-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1968,0.12,0.0,lb,1968-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1969,0.12,0.0,lb,1969-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1970,0.13,8.333333333333348,lb,1970-07-02,https://babel.hathitrust.org/cgi/pt?id=umn.31951000014585x&seq=233
+sugar,1971,0.14,7.692307692307709,lb,1971-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+sugar,1972,0.14,0.0,lb,1972-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+sugar,1973,0.15,7.14285714285714,lb,1973-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+sugar,1974,0.32,113.33333333333333,lb,1974-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+sugar,1975,0.37,15.625,lb,1975-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+sugar,1976,0.24,-35.13513513513513,lb,1976-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+sugar,1977,0.22,-8.333333333333325,lb,1977-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+sugar,1978,0.24,9.090909090909083,lb,1978-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+sugar,1979,0.335,39.58333333333335,lb,1979-07-02,https://babel.hathitrust.org/cgi/pt?id=mdp.39015008856711&seq=527
+sugar,1980,0.43,28.358208955223873,lb,1980-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1981,0.4,-6.976744186046502,lb,1981-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1982,0.35,-12.50000000000001,lb,1982-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1983,0.36,2.857142857142869,lb,1983-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1984,0.36,0.0,lb,1984-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1985,0.35,-2.777777777777779,lb,1985-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1986,0.35,0.0,lb,1986-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1987,0.35,0.0,lb,1987-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1988,0.37,5.714285714285716,lb,1988-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1989,0.4,8.108108108108114,lb,1989-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1990,0.43,7.499999999999996,lb,1990-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1991,0.43,0.0,lb,1991-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1992,0.42,-2.3255813953488413,lb,1992-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1993,0.41,-2.3809523809523836,lb,1993-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1994,0.4,-2.4390243902438935,lb,1994-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1995,0.4,0.0,lb,1995-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1996,0.42,4.999999999999982,lb,1996-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1997,0.43,2.3809523809523725,lb,1997-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1998,0.43,0.0,lb,1998-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,1999,0.43,0.0,lb,1999-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2000,0.42,-2.3255813953488413,lb,2000-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2001,0.43,2.3809523809523725,lb,2001-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2002,0.43,0.0,lb,2002-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2003,0.43,0.0,lb,2003-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2004,0.43,0.0,lb,2004-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2005,0.44,2.3255813953488413,lb,2005-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2006,0.5,13.636363636363647,lb,2006-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2007,0.51,2.0000000000000018,lb,2007-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2008,0.53,3.9215686274509887,lb,2008-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2009,0.57,7.547169811320731,lb,2009-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2010,0.63,10.526315789473696,lb,2010-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2011,0.68,7.936507936507953,lb,2011-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2012,0.69,1.4705882352941124,lb,2012-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2013,0.64,-7.246376811594191,lb,2013-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2014,0.61,-4.6875,lb,2014-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2015,0.65,6.557377049180335,lb,2015-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2016,0.64,-1.538461538461544,lb,2016-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2017,0.65,1.5625,lb,2017-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2018,0.62,-4.615384615384621,lb,2018-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2019,0.59,-4.838709677419361,lb,2019-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2020,0.63,6.779661016949157,lb,2020-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2021,0.68,7.936507936507953,lb,2021-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2022,0.78,14.705882352941169,lb,2022-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2023,0.92,17.948717948717952,lb,2023-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
+sugar,2024,1.0,8.695652173913038,lb,2024-07-02,https://www.bls.gov/regions/mid-atlantic/data/AverageRetailFoodAndEnergyPrices_USandMidwest_Table.htm
