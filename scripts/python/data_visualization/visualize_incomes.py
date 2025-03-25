@@ -1,9 +1,9 @@
-from matplotlib import pyplot as plt
+from plotly.graph_objects import Figure, Scatter
 from src.functions.db.fetch import fetch_incomes
 
 
-def compare_income_data_sources(db_path, start_year, end_year, regions, sources, markers, output_format, output_file):
-    plt.figure(figsize=(12, 6))
+def compare_income_data_sources(db_path, start_year, end_year, regions, sources, markers, output_format, output_file=None, y_scale='log'):
+    fig = Figure()
 
     for source, marker in zip(sources, markers):
         df = fetch_incomes(
@@ -14,21 +14,29 @@ def compare_income_data_sources(db_path, start_year, end_year, regions, sources,
             output_format=output_format
         )
         if not df.empty:
-            years = df['year']
-            incomes = df['average_income_unadjusted']
-            plt.plot(years, incomes, marker=marker, label=source)
+            fig.add_trace(Scatter(
+                x=df['year'],
+                y=df['average_income_unadjusted'],
+                mode='lines+markers',
+                marker=dict(symbol=marker),
+                name=source
+            ))
         else:
             print(f"No data found for {source} between {start_year} and {end_year}.")
 
-    plt.xlabel("Year")
-    plt.ylabel("Average Income Unadjusted")
-    plt.title(f"United States Incomes")
-    plt.legend()
-    plt.grid(True)
-    plt.yscale('log')
+    fig.update_layout(
+        title="United States Incomes",
+        xaxis_title="Year",
+        yaxis_title="Average Income Unadjusted",
+        yaxis_type=y_scale,
+        legend_title="Data Source",
+        hovermode="x unified"
+    )
 
-    plt.savefig(output_file)
-    plt.show()
+    if output_file:
+        fig.write_image(output_file)
+
+    return fig
 
 
 if __name__ == "__main__":
@@ -37,8 +45,13 @@ if __name__ == "__main__":
     end_year = 2024
     regions = ['united states']
     sources = ['IRS', 'BEA', 'FRED']
-    markers = ['.', '+', 'x']
+    markers = ['circle', 'x', 'cross']
     output_format = 'df'
     output_file = f"../../../doc/figures/compare_income_data_sources_{start_year}_{end_year}.png"
+    y_scale = 'log'  # or 'linear'
 
-    compare_income_data_sources(db_path, start_year, end_year, regions, sources, markers, output_format, output_file)
+    fig = compare_income_data_sources(
+        db_path, start_year, end_year, regions, sources,
+        markers, output_format, output_file, y_scale
+    )
+    fig.show()
