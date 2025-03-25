@@ -1,3 +1,11 @@
 .env
 scripts/sh/
 __pycache__/
+.DS_Store
+data/.DS_Store
+data/raw/input_data_csv/.DS_Store
+doc/.DS_Store
+doc/diagrams/.DS_Store
+doc/figures/.DS_Store
+scripts/python/.DS_Store
+data/db/.DS_Store
