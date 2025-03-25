@@ -142,6 +142,50 @@ def fetch_final_goods_affordable(db_path, year_range=(1990, 2000), goods_list=No
         else:
             return json.dumps(merged_df.to_dict(orient='records'))
 
+def fetch_income_intervals_to_purchase(
+    db_path,
+    year_range=(1990, 2000),
+    goods_list=None,
+    regions=None,
+    income_data_source='FRED',
+    salary_interval='annually',
+    output_format='df'
+):
+    incomes_df = fetch_incomes(
+        db_path,
+        year_range=year_range,
+        data_source_name=income_data_source,
+        regions=regions,
+        output_format='df'
+    )
+
+    goods_df = fetch_goods_prices(
+        db_path,
+        year_range=year_range,
+        goods_list=goods_list,
+        use_year_averages=True,
+        output_format='df'
+    )
+
+    merged_df = pd.merge(goods_df, incomes_df, on='year', how='inner')
+
+    if salary_interval == 'monthly':
+        interval_income = merged_df['average_income_unadjusted'] / 12
+    elif salary_interval == 'annually':
+        interval_income = merged_df['average_income_unadjusted']
+    else:
+        raise ValueError("salary_interval must be 'monthly' or 'annually'")
+
+    merged_df['income_intervals_to_purchase'] = (merged_df['price'] / interval_income).astype(float)
+
+    merged_df = merged_df[['name', 'income_intervals_to_purchase', 'good_unit', 'date', 'year', 'region']]
+
+    if output_format == 'df':
+        return merged_df
+    else:
+        return json.dumps(merged_df.to_dict(orient='records'))
+
+
 def fetch_bea_incomes(db_path):
     connection = sqlite3.connect(db_path)
     query = """
