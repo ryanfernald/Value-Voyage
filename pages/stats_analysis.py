@@ -1,0 +1,305 @@
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning, module='pandas')
+
+from dash import html, dcc, callback, Output, Input
+import dash_bootstrap_components as dbc
+import plotly.express as px
+import plotly.graph_objects as go
+import sqlite3
+import pandas as pd
+import numpy as np
+
+DB_PATH = "data/db/sqlite/database.sqlite"
+
+############################################
+############# Graph Call Backs #############
+############################################
+
+####### Gini Coefficient and Lorenz Curve #######
+def fetch_gini_samples():
+    conn = sqlite3.connect(DB_PATH)
+    df = pd.read_sql_query("SELECT * FROM gamma_resampling", conn)
+    conn.close()
+    return df
+
+gini_df = fetch_gini_samples()
+available_years = sorted(gini_df["Year"].unique())
+
+@callback(
+    Output("lorenz-curve-plot", "figure"),
+    Input("year-slider", "value")
+)
+def update_lorenz_plot(selected_year):
+    df = fetch_gini_samples()
+    incomes = df[df["Year"] == selected_year]["Income Sample"].sort_values().values
+
+    if len(incomes) == 0:
+        return px.line(title="No data available for selected year.")
+
+    # Compute Lorenz curve
+    cumulative_income = np.cumsum(incomes)
+    cumulative_income = np.insert(cumulative_income, 0, 0)
+    cumulative_income /= cumulative_income[-1]
+    population_share = np.linspace(0, 1, len(cumulative_income))
+
+    lorenz_df = pd.DataFrame({
+        "Population Share": population_share,
+        "Income Share": cumulative_income
+    })
+
+    # Diagonal line (line of equality)
+    equality_x = [0, 1]
+    equality_y = [0, 1]
+
+    # Create fill polygon between the Lorenz curve and the line of equality
+    fill_x = list(population_share) + equality_x[::-1]
+    fill_y = list(cumulative_income) + equality_y[::-1]
+
+    fig = go.Figure()
+
+    # Shaded area between Lorenz curve and line of equality
+    fig.add_trace(go.Scatter(
+        x=fill_x,
+        y=fill_y,
+        fill="toself",
+        fillcolor="rgba(255, 0, 0, 0.2)",
+        line=dict(color="rgba(255,255,255,0)"),
+        hoverinfo="skip",
+        showlegend=False
+    ))
+
+    # Lorenz curve
+    fig.add_trace(go.Scatter(
+        x=population_share,
+        y=cumulative_income,
+        mode="lines",
+        name="Lorenz Curve",
+        line=dict(color="blue", width=2)
+    ))
+
+    # Line of equality
+    fig.add_trace(go.Scatter(
+        x=equality_x,
+        y=equality_y,
+        mode="lines",
+        name="Line of Equality",
+        line=dict(dash="dash", color="gray")
+    ))
+
+    gini = 1 - 2 * np.trapz(cumulative_income, population_share)
+
+    fig.update_layout(
+        title=f"Lorenz Curve - {selected_year} — Gini Coefficient: {gini:.4f}",
+        xaxis_title="Cumulative Population",
+        yaxis_title="Cumulative Income",
+        xaxis=dict(range=[0, 1]),
+        yaxis=dict(range=[0, 1]),
+        showlegend=True,
+        hovermode="x",
+    )
+
+    return fig
+
+######### Gini Coefficient Over Time #########
+
+def fetch_gini_over_time():
+    conn = sqlite3.connect(DB_PATH)
+    df = pd.read_sql_query("SELECT * FROM gini_year", conn)
+    conn.close()
+    return df
+
+gini_trend_df = fetch_gini_over_time()
+
+gini_trend_fig = go.Figure(
+    data=go.Scatter(
+        x=gini_trend_df["Year"],
+        y=gini_trend_df["Gini Coefficient"],
+        mode="lines+markers",
+        line=dict(color="orange", width=2),
+        marker=dict(size=4),
+        name="Gini Coefficient"
+    )
+)
+
+gini_trend_fig.update_layout(
+    title="Gini Coefficient Over Time",
+    xaxis_title="Year",
+    yaxis_title="Gini Coefficient",
+    yaxis=dict(
+        autorange=False,
+        range=[
+            gini_trend_df["Gini Coefficient"].min() - 0.02,
+            gini_trend_df["Gini Coefficient"].max() + 0.02
+        ]
+    ),
+    template="plotly_white",
+    hovermode="x",
+)
+
+######## Income Inequality Metrics ########
+
+def fetch_analysis_metrics():
+    conn = sqlite3.connect(DB_PATH)
+    df = pd.read_sql_query(
+        "SELECT Year, `Palma Ratio`, `Housing Affordability Delta`, `Productivity Gap Delta` FROM analysis",
+        conn
+    )
+    conn.close()
+    return df
+
+def fetch_normalized_analysis_metrics():
+    conn = sqlite3.connect(DB_PATH)
+    df = pd.read_sql_query(
+        "SELECT Year, `Normalized Palma Ratio`, `Normalized Housing Affordability Delta`, `Normalized Productivity Gap Delta` FROM analysis",
+        conn
+    )
+    conn.close()
+    return df
+
+# Raw metrics
+analysis_df = fetch_analysis_metrics()
+metrics_fig = go.Figure()
+metrics_fig.add_trace(go.Scatter(x=analysis_df["Year"], y=analysis_df["Palma Ratio"], mode="lines", name="Palma Ratio"))
+metrics_fig.add_trace(go.Scatter(x=analysis_df["Year"], y=analysis_df["Housing Affordability Delta"], mode="lines", name="Housing Affordability Delta"))
+metrics_fig.add_trace(go.Scatter(x=analysis_df["Year"], y=analysis_df["Productivity Gap Delta"], mode="lines", name="Productivity Gap Delta"))
+metrics_fig.update_layout(
+    title="Income Inequality Metrics Over Time",
+    xaxis_title="Year",
+    yaxis_title="Value",
+    yaxis=dict(range=[0, 6]),
+    template="plotly_white",
+    hovermode="x"
+)
+
+# Normalized metrics
+normalized_df = fetch_normalized_analysis_metrics()
+norm_fig = go.Figure()
+norm_fig.add_trace(go.Scatter(x=normalized_df["Year"], y=normalized_df["Normalized Palma Ratio"], mode="lines", name="Normalized Palma Ratio"))
+norm_fig.add_trace(go.Scatter(x=normalized_df["Year"], y=normalized_df["Normalized Housing Affordability Delta"], mode="lines", name="Normalized Housing Affordability Delta"))
+norm_fig.add_trace(go.Scatter(x=normalized_df["Year"], y=normalized_df["Normalized Productivity Gap Delta"], mode="lines", name="Normalized Productivity Gap Delta"))
+norm_fig.update_layout(
+    title="Normalized Income Inequality Metrics",
+    xaxis_title="Year",
+    yaxis_title="Normalized Value",
+    yaxis=dict(range=[0, 1]),
+    template="plotly_white",
+    showlegend=False,
+    hovermode="x"
+)
+
+############################################
+################# Layout ###################
+############################################
+
+
+layout = dbc.Container(fluid=True, children=[
+    
+    # Section: Header / Introduction
+    dbc.Row([
+        dbc.Col(html.H2("Understanding Income Inequality Through Statistical Modeling"), width=12),
+        dbc.Col(html.P("""
+            This page summarizes the methodology and metrics used to quantify income inequality over time.
+            Using the Palma Ratio, Housing Affordability Delta, and the Productivity Gap, we normalized each metric and derived Alpha and Beta parameters
+            to simulate income distributions via a Gamma distribution. Gini coefficients and Lorenz curves offer visual and numeric validation of inequality over time.
+        """), width=12)
+    ], className="my-4"),
+    
+    # Section: Lorenz Curve Interactive Plot
+    dbc.Row([
+        dbc.Col([
+            html.H4("Lorenz Curve by Year"),
+            dcc.Slider(
+                id="year-slider",
+                min=min(available_years),
+                max=max(available_years),
+                value=min(available_years),
+                step=1,  # or None if your years are not continuous integers
+                marks={
+                    int(year): {
+                        "label": str(year),
+                        "style": {
+                            "transform": "rotate(45deg)",
+                            "font-size": "10px"
+                        }
+                    }
+                    for year in available_years if int(year) % 5 == 0
+                },
+                tooltip={"placement": "bottom", "always_visible": True}
+            ),
+            dcc.Graph(id="lorenz-curve-plot")
+        ])
+    ]),
+
+    # Section: Gini Coefficients Text + Visual Pair
+    dbc.Row([
+    dbc.Col([
+        html.H5("Interpreting Gini Coefficients"),
+        html.P("""
+            The Gini coefficient summarizes income inequality on a scale from 0 (perfect equality) to 1 (maximum inequality).
+            It is derived from the Lorenz Curve and provides a snapshot of income concentration across a population.
+            Here we analyze Gini trends using bootstrapped income samples across time.
+        """),
+        dcc.Markdown("""
+        ### PDF (Probability Density Function) of the Gamma Distribution
+
+        The probability density function (PDF) of the Gamma distribution is defined as:
+
+        $$
+        f(x; \\alpha, \\beta) = \\frac{1}{\\Gamma(\\alpha) \\beta^\\alpha} x^{\\alpha - 1} e^{-x / \\beta}
+        $$
+
+        Where:
+        - $$\\alpha$$ is the shape parameter  
+        - $$\\beta$$ is the scale parameter  
+        - $$\\Gamma(\\alpha)$$ is the Gamma function
+        """, mathjax=True)
+    ], width=6),
+
+    dbc.Col([
+        dcc.Graph(id="gini-trend-plot", figure=gini_trend_fig)
+    ], width=6)
+], className="mb-4"),
+
+    # Section: Expressing Income Inequality
+    dbc.Row([
+        dbc.Col(html.H4("Expressing Income Inequality"), width=12),
+        dbc.Col(html.H5("Income Inequality Metrics"), width=12),
+        dbc.Col(html.P("""
+                    To help understand the purchasing power of the dollar we wanted to better understand what it means for income inequality to be expressed in a few specific metrics. To model and quantify income inequality in a dynamic and interpretable way we developed a composite framework that utilizes three parameters, The Palma Ratio, along with two delta values related to Housing Affordability and Productivity. The overall goal is to express these metrics as the hyper parameters in a Gamma distribution.
+                    """), width=12),
+        dbc.Col(html.P("""Here's a brief summary and explanation as to why we used these parameters.
+                    """), width=12),
+        dbc.Col(html.P("""   ✤  Palma Ratio: This is a widely accepted measure of income inequality, defined as the ratio of the income share of the top 10% to that of the bottom 40%. It is a direct expression of income concentration and wealth disparity.
+                    """), width=12),
+        dbc.Col(html.P("""   ✤  Housing Affordability Delta: This metric measures the gap between what median-income individuals can afford and the actual cost of home ownership, including mortgage payments, insurance, and property taxes. This is supposed to represent how economic inequality manifests in housing access and financial pressure, particularly for middle and lower-income earners.
+                    """), width=12),
+        dbc.Col(html.P("""   ✤  Productivity-Pay Gap: This captures the divergence between labor productivity and real wage growth. It reflects structural trends in wage stagnation, capital-labor imbalance, and broader systemic inequality that may not appear immediately in direct income ratios.
+                    """), width=12),          
+        ], className="mb-4"),
+
+    # Section: Income Indquality Metrics Graphs
+    dbc.Row([
+    dbc.Col([
+        dcc.Graph(id="income_inequality_metrics", figure=metrics_fig)
+    ], width=6),
+    dbc.Col([
+        dcc.Graph(id="normalized_income_inequality_metrics", figure=norm_fig)
+    ], width=6)
+], className="mb-4"),
+
+    # Section: Supporting Text + Beta Visualization
+    dbc.Row([
+        dbc.Col([
+            html.H5("Gamma Distribution Scale (Beta)"),
+            html.P("""
+                Beta represents the dispersion of income. A higher beta indicates wider spread, reflecting long-term wage divergence and housing shocks.
+                We weighted Productivity Gap (50%), Housing Delta (30%), and Palma Ratio (20%) for this.
+            """)
+        ], width=6),
+        dbc.Col([
+            dcc.Graph(id="beta-trend-plot")  # Placeholder for Beta over time
+        ], width=6)
+    ], className="mb-5"),
+])
+
+exprort_layout = layout

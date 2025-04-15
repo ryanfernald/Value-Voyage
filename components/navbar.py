@@ -6,8 +6,9 @@ def create_navbar():
         children=[
             dbc.NavItem(dbc.NavLink("Home", href="/")),
             dbc.NavItem(dbc.NavLink("Objectives", href="/objectives")),
-            dbc.NavItem(dbc.NavLink("Analysis", href="/analysis")),
+            dbc.NavItem(dbc.NavLink("Exploratory Data Analysis", href="/analysis")),
             dbc.NavItem(dbc.NavLink("Findings", href="/findings")),
+            dbc.NavItem(dbc.NavLink("Statistical Analysis", href="/stat_analysis")),
             # dbc.DropdownMenu(
             #     dbc.DropdownMenuItem("About"),
             #     dbc.DropdownMenuItem("Contact"),

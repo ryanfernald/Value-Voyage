@@ -231,6 +231,6 @@ if __name__ == '__main__':
     #     output_format='df'
     # )
 
-    data = fetch_bea_incomes(db_path)
+    # data = fetch_bea_incomes(db_path)
 
-    print(data)
+    # print(data)

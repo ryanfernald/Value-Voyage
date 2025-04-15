@@ -4,7 +4,7 @@ warnings.filterwarnings("ignore", category=UserWarning, module='pandas')
 from dash import Dash, dcc, html, Input, Output, callback, dash
 import dash_bootstrap_components as dbc
 from components import navbar
-from pages import landing, objectives, analysis, findings
+from pages import landing, objectives, analysis, findings, stats_analysis
 # from flask import Flask, request
 import os
 
@@ -34,7 +34,7 @@ import os
 #     return pd.read_csv(StringIO(data))
 
 
-app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True)
 server = app.server
 
 # Define the app layout
@@ -60,6 +60,8 @@ def display_page(pathname):
         return analysis.layout
     elif pathname == "/findings":
         return findings.layout
+    elif pathname == "/stat_analysis":
+        return stats_analysis.layout
     else:
         return html.Div([
             html.H1("404: Page Not Found"),
