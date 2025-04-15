@@ -187,6 +187,40 @@ norm_fig.update_layout(
     hovermode="x"
 )
 
+######### Alpha and Beta Parameters #########
+def fetch_alpha_beta_trend():
+    conn = sqlite3.connect(DB_PATH)
+    df = pd.read_sql_query("SELECT Year, Alpha, Beta FROM analysis", conn)
+    conn.close()
+    return df
+
+alpha_beta_df = fetch_alpha_beta_trend()
+
+alpha_beta_fig = go.Figure()
+alpha_beta_fig.add_trace(go.Scatter(
+    x=alpha_beta_df["Year"],
+    y=alpha_beta_df["Alpha"],
+    mode="lines",
+    name="Alpha",
+    line=dict(color="blue")
+))
+alpha_beta_fig.add_trace(go.Scatter(
+    x=alpha_beta_df["Year"],
+    y=alpha_beta_df["Beta"],
+    mode="lines",
+    name="Beta",
+    line=dict(color="red")
+))
+
+alpha_beta_fig.update_layout(
+    title="Gamma Distribution Parameters Over Time",
+    xaxis_title="Year",
+    yaxis_title="Parameter Value",
+    yaxis=dict(range=[0, 9]),
+    template="plotly_white",
+    hovermode="x"
+)
+
 ############################################
 ################# Layout ###################
 ############################################
@@ -233,7 +267,7 @@ layout = dbc.Container(fluid=True, children=[
     # Section: Gini Coefficients Text + Visual Pair
     dbc.Row([
     dbc.Col([
-        html.H5("Interpreting Gini Coefficients"),
+        html.H3("Interpreting Gini Coefficients"),
         html.P("""
             The Gini coefficient summarizes income inequality on a scale from 0 (perfect equality) to 1 (maximum inequality).
             It is derived from the Lorenz Curve and provides a snapshot of income concentration across a population.
@@ -262,19 +296,21 @@ layout = dbc.Container(fluid=True, children=[
 
     # Section: Expressing Income Inequality
     dbc.Row([
-        dbc.Col(html.H4("Expressing Income Inequality"), width=12),
+        dbc.Col(html.H3("Expressing Income Inequality"), width=12),
         dbc.Col(html.H5("Income Inequality Metrics"), width=12),
         dbc.Col(html.P("""
                     To help understand the purchasing power of the dollar we wanted to better understand what it means for income inequality to be expressed in a few specific metrics. To model and quantify income inequality in a dynamic and interpretable way we developed a composite framework that utilizes three parameters, The Palma Ratio, along with two delta values related to Housing Affordability and Productivity. The overall goal is to express these metrics as the hyper parameters in a Gamma distribution.
                     """), width=12),
-        dbc.Col(html.P("""Here's a brief summary and explanation as to why we used these parameters.
+        dbc.Col(html.H5("""Here's a brief summary and explanation as to why we used these parameters.
                     """), width=12),
         dbc.Col(html.P("""   ✤  Palma Ratio: This is a widely accepted measure of income inequality, defined as the ratio of the income share of the top 10% to that of the bottom 40%. It is a direct expression of income concentration and wealth disparity.
                     """), width=12),
         dbc.Col(html.P("""   ✤  Housing Affordability Delta: This metric measures the gap between what median-income individuals can afford and the actual cost of home ownership, including mortgage payments, insurance, and property taxes. This is supposed to represent how economic inequality manifests in housing access and financial pressure, particularly for middle and lower-income earners.
                     """), width=12),
         dbc.Col(html.P("""   ✤  Productivity-Pay Gap: This captures the divergence between labor productivity and real wage growth. It reflects structural trends in wage stagnation, capital-labor imbalance, and broader systemic inequality that may not appear immediately in direct income ratios.
-                    """), width=12),          
+                    """), width=12),   
+        dbc.Col(html.P("""   A small note about the Pay Gap Delta: The data we have only goes back to 1948, so set pay and performance equivelant, so their values represent equal pay for equal productivity and to not skew our Alpha or Beta values for any years before 1948. We thought it was an important metric to include as we believe it is a good representation of the overall economic inequality in the US.
+                    """), width=12),         
         ], className="mb-4"),
 
     # Section: Income Indquality Metrics Graphs
@@ -287,17 +323,28 @@ layout = dbc.Container(fluid=True, children=[
     ], width=6)
 ], className="mb-4"),
 
-    # Section: Supporting Text + Beta Visualization
+    # Section: Alpha and Beta Parameter Visualization
     dbc.Row([
         dbc.Col([
-            html.H5("Gamma Distribution Scale (Beta)"),
-            html.P("""
-                Beta represents the dispersion of income. A higher beta indicates wider spread, reflecting long-term wage divergence and housing shocks.
-                We weighted Productivity Gap (50%), Housing Delta (30%), and Palma Ratio (20%) for this.
-            """)
+            html.H3("Gamma Distribution Parameters, Alpha and Beta"),
+            html.P("An income distribution is always skewed like a Gamma Distribution — this has been consistent throughout history. We wanted to find out just how skewed and how spread the data should be using a bootstrap resampling method. As a result, we chose our Gamma parameters: Alpha and Beta, each designated with special weights according to their relevance."),
+
+            html.H4("Alpha (Shape Parameter)"),
+            html.H5("Represents inequality skew. Lower alpha values create more right-skewed distributions (i.e., higher inequality), while higher values create more symmetric distributions (i.e., more equitable)."),
+            html.P("We weighted the inputs for Alpha as follows:"),
+            html.P("✤ Palma Ratio: 50% — it directly measures inequality concentration"),
+            html.P("✤ Housing Delta: 30% — reflects local volatility and financial pressure"),
+            html.P("✤ Productivity Gap: 20% — reflects slow-moving but systemic divergence"),
+
+            html.H4("Beta (Scale Parameter)"),
+            html.H5("Represents the breadth or variance of the distribution. It reflects how spread out the income distribution is, with higher values indicating greater dispersion."),
+            html.P("We weighted the inputs for Beta as follows:"),
+            html.P("✤ Productivity Gap: 50% — systemic wage divergence creates long-term spread"),
+            html.P("✤ Housing Delta: 30% — affordability shocks influence volatility"),
+            html.P("✤ Palma Ratio: 20% — still relevant, but more focused on distribution extremes"),
         ], width=6),
         dbc.Col([
-            dcc.Graph(id="beta-trend-plot")  # Placeholder for Beta over time
+            dcc.Graph(id="beta-trend-plot", figure=alpha_beta_fig)
         ], width=6)
     ], className="mb-5"),
 ])
