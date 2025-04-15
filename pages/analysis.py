@@ -4,15 +4,17 @@ from dash import dcc, html
 import pandas as pd
 import plotly.graph_objects as go
 import dash_bootstrap_components as dbc
+import sqlite3
 from src.functions.db.fetch import fetch_goods_prices
 from src.functions.db.fetch import fetch_bea_incomes
-from scripts.python.data_visualization.visualize_final_goods import plot_incomes_inf_final_goods
+# from scripts.python.data_visualization.visualize_final_goods import plot_incomes_inf_final_goods
 
+db_path = 'data/db/sqlite/database.sqlite'
 
 # Define the Goods Prices Graph as a function
 def get_goods_prices_graph():
     goods = fetch_goods_prices(
-        db_path='data/db/sqlite/database.sqlite',
+        db_path = 'data/db/sqlite/database.sqlite',
         year_range=(1890, 2025),
         goods_list=None,
         use_year_averages=True,
@@ -46,29 +48,69 @@ def get_goods_prices_graph():
     )
     return goods_prices_graph
 
-# Define the Affordable Goods Graph as a function
 def get_affordable_goods_graph():
-    return plot_incomes_inf_final_goods(
-        db_path='data/db/sqlite/database.sqlite',
-        year_range=(1929, 2024),
-        goods_list=['bacon', 'bread', 'butter', 'coffee', 'eggs', 'flour', 'milk', 'pork chop', 'round steak', 'sugar', 'gas'],
-        regions=['united states'],
-        income_data_source='FRED',
-        salary_interval='monthly',
-        output_format='df'
-    )
+    conn = sqlite3.connect(db_path)
+    query = """
+        SELECT year, good_name, affordable_monthly_quantity, good_unit
+        FROM affordable_goods
+        WHERE good_name IN ('bacon', 'bread', 'butter', 'coffee', 'eggs', 'flour', 'milk', 'pork chop', 'round steak', 'sugar')
+        ORDER BY year
+    """
+    df = pd.read_sql_query(query, conn)
+    conn.close()
 
-# Affordable goods wihtout floud and sugar
-def get_affordable_goods_graph_no_flower_sugar():
-    return plot_incomes_inf_final_goods(
-        db_path='data/db/sqlite/database.sqlite',
-        year_range=(1929, 2024),
-        goods_list=['bacon', 'bread', 'butter', 'coffee', 'eggs', 'milk', 'pork chop', 'round steak', 'gas'],
-        regions=['united states'],
-        income_data_source='FRED',
-        salary_interval='monthly',
-        output_format='df'
+    fig = go.Figure()
+
+    for good in df['good_name'].unique():
+        subset = df[df['good_name'] == good]
+        legend_name = f"{good} /{subset['good_unit'].iloc[0]}"
+        fig.add_trace(go.Scatter(
+            x=subset['year'],
+            y=subset['affordable_monthly_quantity'],
+            mode='lines',
+            name=legend_name,
+            hovertemplate=legend_name + ": %{y}<extra></extra>"
+        ))
+
+    fig.update_layout(
+        title="Affordable Quantity of Goods per Month",
+        xaxis_title="Year-Month",
+        yaxis_title="Affordable Monthly Quantity",
+        hovermode="x unified"
     )
+    return fig
+
+def get_affordable_goods_graph_no_flower_sugar():
+    conn = sqlite3.connect(db_path)
+    query = """
+        SELECT year, good_name, affordable_monthly_quantity, good_unit
+        FROM affordable_goods
+        WHERE good_name IN ('bacon', 'bread', 'butter', 'coffee', 'eggs', 'milk', 'pork chop', 'round steak', 'gas')
+        ORDER BY year
+    """
+    df = pd.read_sql_query(query, conn)
+    conn.close()
+
+    fig = go.Figure()
+
+    for good in df['good_name'].unique():
+        subset = df[df['good_name'] == good]
+        legend_name = f"{good} /{subset['good_unit'].iloc[0]}"
+        fig.add_trace(go.Scatter(
+            x=subset['year'],
+            y=subset['affordable_monthly_quantity'],
+            mode='lines',
+            name=legend_name,
+            hovertemplate=legend_name + ": %{y}<extra></extra>"
+        ))
+
+    fig.update_layout(
+        title="Affordable Quantity of Goods per Month (No Flour or Sugar)",
+        xaxis_title="Year-Month",
+        yaxis_title="Affordable Monthly Quantity",
+        hovermode="x unified"
+    )
+    return fig
 
 # Define the Income Average Graph as a function
 def get_income_averages_graph():
@@ -125,7 +167,6 @@ def get_income_shares_graph():
 
 # Define the Income by Area Graph as a function
 def get_income_by_area_graph():
-    db_path = 'data/db/sqlite/database.sqlite'
     area_df = fetch_bea_incomes(db_path)
 
     regions = ["united states *", "mideast", "great lakes", "plains",
@@ -177,7 +218,7 @@ layout = dbc.Container(
         dbc.Row(
             [
                 dbc.Col(
-                    dcc.Graph(id="affordable-goods-graph", figure=get_affordable_goods_graph()),  # Call the function
+                    dcc.Graph(id="affordable-goods-graph", figure=get_affordable_goods_graph()),  
                     width=7
                 ),
                 dbc.Col(
@@ -193,7 +234,7 @@ layout = dbc.Container(
         dbc.Row(
             [
                 dbc.Col(
-                    dcc.Graph(id="affordable-goods-graph", figure=get_affordable_goods_graph_no_flower_sugar()),  # Call the function
+                    dcc.Graph(id="affordable-goods-graph", figure=get_affordable_goods_graph_no_flower_sugar()),  
                     width=7
                 ),
                 dbc.Col(
