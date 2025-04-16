@@ -13,7 +13,6 @@ matplotlib==3.10.1
 mysql-connector-python==9.2.0
 numpy==2.0.2
 packaging==24.2
-pandas==2.2.3
 pillow==11.1.0
 pyparsing==3.2.1
 python-dateutil==2.9.0.post0
@@ -28,3 +27,4 @@ plotly
 dash
 dash-bootstrap-components
 gunicorn
+pandas

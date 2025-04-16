@@ -6,10 +6,12 @@ import dash_bootstrap_components as dbc
 import plotly.express as px
 import plotly.graph_objects as go
 import sqlite3
+import os
 import pandas as pd
 import numpy as np
 
-DB_PATH = "data/db/sqlite/database.sqlite"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+db_path = os.path.join(BASE_DIR, '..', 'data', 'db', 'sqlite', 'database.sqlite')
 
 ############################################
 ############# Graph Call Backs #############
@@ -17,7 +19,7 @@ DB_PATH = "data/db/sqlite/database.sqlite"
 
 ####### Gini Coefficient and Lorenz Curve #######
 def fetch_gini_samples():
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(db_path)
     df = pd.read_sql_query("SELECT * FROM gamma_resampling", conn)
     conn.close()
     return df
@@ -103,7 +105,7 @@ def update_lorenz_plot(selected_year):
 ######### Gini Coefficient Over Time #########
 
 def fetch_gini_over_time():
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(db_path)
     df = pd.read_sql_query("SELECT * FROM gini_year", conn)
     conn.close()
     return df
@@ -139,7 +141,7 @@ gini_trend_fig.update_layout(
 ######## Income Inequality Metrics ########
 
 def fetch_analysis_metrics():
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(db_path)
     df = pd.read_sql_query(
         "SELECT Year, `Palma Ratio`, `Housing Affordability Delta`, `Productivity Gap Delta` FROM analysis",
         conn
@@ -148,7 +150,7 @@ def fetch_analysis_metrics():
     return df
 
 def fetch_normalized_analysis_metrics():
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(db_path)
     df = pd.read_sql_query(
         "SELECT Year, `Normalized Palma Ratio`, `Normalized Housing Affordability Delta`, `Normalized Productivity Gap Delta` FROM analysis",
         conn
@@ -189,7 +191,7 @@ norm_fig.update_layout(
 
 ######### Alpha and Beta Parameters #########
 def fetch_alpha_beta_trend():
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(db_path)
     df = pd.read_sql_query("SELECT Year, Alpha, Beta FROM analysis", conn)
     conn.close()
     return df

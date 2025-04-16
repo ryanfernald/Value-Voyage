@@ -8,31 +8,6 @@ from pages import landing, objectives, analysis, findings, stats_analysis
 # from flask import Flask, request
 import os
 
-# from google.cloud import storage
-# import os
-# from io import StringIO
-
-
-# # BLOB is an acronym for "Binary Large Object". It's a data type that stores binary data, such as images, videos, and audio.
-# def get_csv_from_gcs(bucket_name, source_blob_name):
-#     """Downloads a blob from the bucket."""
-#     # The ID of your GCS bucket
-#     bucket_name = "value-voyage-cs163.appspot.com"
-
-#     # The ID of your GCS object
-#     # source_blob_name = "storage-object-name"
-
-#     storage_client = storage.Client()
-#     bucket = storage_client.bucket(bucket_name)
-
-#     # Construct a client side representation of a blob.
-#     # Note `Bucket.blob` differs from `Bucket.get_blob` as it doesn't retrieve
-#     # any content from Google Cloud Storage. As we don't need additional data,
-#     # using `Bucket.blob` is preferred here.
-#     blob = bucket.blob(source_blob_name)
-#     data = blob.download_as_text()
-#     return pd.read_csv(StringIO(data))
-
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True)
 server = app.server
@@ -71,18 +46,30 @@ def display_page(pathname):
 # Define a readiness check endpoint
 @app.server.route('/readiness_check')
 def readiness_check():
-    # Add logic to check if your app is ready to serve traffic
     if app.is_ready():
         return "App is ready", 200
     else:
         return "App is not ready", 503
+    
+@app.server.route("/debug-db")
+def debug_db():
+    test_path = os.path.join(os.path.dirname(__file__), 'data', 'db', 'sqlite', 'database.sqlite')
+    try:
+        exists = os.path.exists(test_path)
+        return f"File exists: {exists}, Path: {test_path}"
+    except Exception as e:
+        return str(e), 500
+    
 
-# Check if the Dash app is ready
-def app_is_ready():
-    # Placeholder function to check if the app is ready
-    # You should implement the actual logic here
-    # For now, we assume the app is always ready
-    return True
+@app.server.route("/list-db-dir")
+def list_db_dir():
+    try:
+        base_dir = os.path.dirname(__file__)
+        full_path = os.path.join(base_dir, 'data', 'db', 'sqlite')
+        files = os.listdir(full_path)
+        return "<br>".join(files)
+    except Exception as e:
+        return f"Failed to read directory: {str(e)}"
 
 if __name__ == "__main__":
     app.run_server(debug=True, port=8080 if os.environ.get('SERVER_SOFTWARE') else 8050)

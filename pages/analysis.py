@@ -5,55 +5,62 @@ import pandas as pd
 import plotly.graph_objects as go
 import dash_bootstrap_components as dbc
 import sqlite3
-from src.functions.db.fetch import fetch_goods_prices
-from src.functions.db.fetch import fetch_bea_incomes
+import os
+import numpy as np
+# from src.functions.db.fetch import fetch_goods_prices
+# from src.functions.db.fetch import fetch_bea_incomes
 # from scripts.python.data_visualization.visualize_final_goods import plot_incomes_inf_final_goods
 
-db_path = 'data/db/sqlite/database.sqlite'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+db_path = os.path.join(BASE_DIR, '..', 'data', 'db', 'sqlite', 'database.sqlite')
 
-# Define the Goods Prices Graph as a function
+# Define the Goods Prices Graph as a function : WHERE name IN ('bacon', 'bread', 'butter', 'coffee', 'eggs', 'flour', 'milk', 'pork chop', 'round steak', 'sugar')
 def get_goods_prices_graph():
-    goods = fetch_goods_prices(
-        db_path = 'data/db/sqlite/database.sqlite',
-        year_range=(1890, 2025),
-        goods_list=None,
-        use_year_averages=True,
-        output_format='df'
-    )
+    conn = sqlite3.connect(db_path)
+    query = """
+        SELECT name, price, date, good_unit
+        FROM goods_prices
 
-    goods = goods.sort_values("date", ascending=True).dropna(subset=['price', 'date'])
+        ORDER BY date
+    """
+    df = pd.read_sql_query(query, conn)
+    conn.close()
 
-    goods_prices_graph = go.Figure()
+    df['Year'] = df['date'].str.slice(0, 7)
 
-    for good_name in goods["name"].unique():
-        filtered_data = goods[goods["name"] == good_name]
+    # Interpolate missing prices for each good
+    df['price'] = pd.to_numeric(df['price'], errors='coerce')
+    df = df.sort_values(by=['name', 'Year'])
+    df['price'] = df.groupby('name')['price'].transform(lambda group: group.interpolate(method='linear'))
 
-        x_values = filtered_data["year"].astype(int).tolist()
-        y_values = filtered_data["price"].astype(float).tolist()
+    fig = go.Figure()
 
-        goods_prices_graph.add_trace(go.Scatter(
-            x=x_values,
-            y=y_values,
-            mode="lines",
-            name=str(good_name)
+    for good in df['name'].unique():
+        subset = df[df['name'] == good]
+        legend_name = f"{good} /{subset['good_unit'].iloc[0]}"
+        fig.add_trace(go.Scatter(
+            x=subset['Year'],
+            y=np.round(subset['price'],2),
+            mode='lines',
+            name=legend_name,
+            hovertemplate=legend_name + ": %{y}<extra></extra>"
         ))
 
-    goods_prices_graph.update_layout(
+    fig.update_layout(
         title="Price Trends Over Time",
-        xaxis_title="Year",
+        xaxis_title="Year-Month",
         yaxis_title="Price",
-        title_font_size=16,
-        xaxis=dict(tickangle=45),
         hovermode="x unified"
     )
-    return goods_prices_graph
+    return fig
 
+# WHERE good_name IN ('bacon', 'bread', 'butter', 'coffee', 'eggs', 'flour', 'milk', 'pork chop', 'round steak', 'sugar')
 def get_affordable_goods_graph():
     conn = sqlite3.connect(db_path)
     query = """
         SELECT year, good_name, affordable_monthly_quantity, good_unit
         FROM affordable_goods
-        WHERE good_name IN ('bacon', 'bread', 'butter', 'coffee', 'eggs', 'flour', 'milk', 'pork chop', 'round steak', 'sugar')
+        
         ORDER BY year
     """
     df = pd.read_sql_query(query, conn)
@@ -80,12 +87,13 @@ def get_affordable_goods_graph():
     )
     return fig
 
+# WHERE good_name IN ('bacon', 'bread', 'butter', 'coffee', 'eggs', 'milk', 'pork chop', 'round steak', 'gas')
 def get_affordable_goods_graph_no_flower_sugar():
     conn = sqlite3.connect(db_path)
     query = """
         SELECT year, good_name, affordable_monthly_quantity, good_unit
         FROM affordable_goods
-        WHERE good_name IN ('bacon', 'bread', 'butter', 'coffee', 'eggs', 'milk', 'pork chop', 'round steak', 'gas')
+        
         ORDER BY year
     """
     df = pd.read_sql_query(query, conn)
@@ -166,34 +174,34 @@ def get_income_shares_graph():
 
 
 # Define the Income by Area Graph as a function
-def get_income_by_area_graph():
-    area_df = fetch_bea_incomes(db_path)
+# def get_income_by_area_graph():
+#     area_df = fetch_bea_incomes(db_path)
 
-    regions = ["united states *", "mideast", "great lakes", "plains",
-               "southeast", "southwest", "rocky mountain", "far west *"]
+#     regions = ["united states *", "mideast", "great lakes", "plains",
+#                "southeast", "southwest", "rocky mountain", "far west *"]
 
-    income_area = go.Figure()
+#     income_area = go.Figure()
 
-    for region in regions:
-        filtered_data = area_df[area_df['region'] == region]
-        income_area.add_trace(go.Scatter( 
+#     for region in regions:
+#         filtered_data = area_df[area_df['region'] == region]
+#         income_area.add_trace(go.Scatter( 
 
-            x=filtered_data["year"].astype(int).tolist(),
-            y=filtered_data["average_income_unadjusted"].astype(int).tolist(),
+#             x=filtered_data["year"].astype(int).tolist(),
+#             y=filtered_data["average_income_unadjusted"].astype(int).tolist(),
 
-            mode="lines",
-            name=region
-        ))
+#             mode="lines",
+#             name=region
+#         ))
 
-    income_area.update_layout(
-        title="Regional Income Trends Over Time",
-        xaxis_title="Year",
-        yaxis_title="Income Value",
-        legend_title="Regions",
-        hovermode="x"
-    )
+#     income_area.update_layout(
+#         title="Regional Income Trends Over Time",
+#         xaxis_title="Year",
+#         yaxis_title="Income Value",
+#         legend_title="Regions",
+#         hovermode="x"
+#     )
 
-    return income_area
+#     return income_area
 
 
 # Define the layout for the analysis page
@@ -264,7 +272,7 @@ layout = dbc.Container(
         dbc.Row(
             [
                 dbc.Col(
-                    dcc.Graph(id="income-area-graph", figure=get_income_by_area_graph()),  # Call the function
+                    dcc.Graph(id="income-area-graph"),  # Call the function : figure=get_income_by_area_graph()
                     width=7
                 ),
                 dbc.Col(
