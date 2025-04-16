@@ -88,7 +88,7 @@ gini_trend_fig = go.Figure(
 )
 
 gini_trend_fig.update_layout(
-    title="Gini Coefficient Over Time",
+    title="Gini Coefficient (inequality coefficient) Over Time",
     xaxis_title="Year",
     yaxis_title="Gini Coefficient",
     xaxis=dict(
