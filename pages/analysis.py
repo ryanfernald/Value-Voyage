@@ -12,23 +12,17 @@ import numpy as np
 # from scripts.python.data_visualization.visualize_final_goods import plot_incomes_inf_final_goods
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-db_path = os.path.join(BASE_DIR, '..', 'data', 'db', 'sqlite', 'database.sqlite')
+csv_dir = os.path.join(BASE_DIR, '..', 'data', 'csv')
 
-# Define the Goods Prices Graph as a function : WHERE name IN ('bacon', 'bread', 'butter', 'coffee', 'eggs', 'flour', 'milk', 'pork chop', 'round steak', 'sugar')
 def get_goods_prices_graph():
-    conn = sqlite3.connect(db_path)
-    query = """
-        SELECT name, price, date, good_unit
-        FROM goods_prices
+    csv_path = os.path.join(csv_dir, 'goods_prices.csv')
+    df = pd.read_csv(csv_path)
 
-        ORDER BY date
-    """
-    df = pd.read_sql_query(query, conn)
-    conn.close()
+    # Filter to selected goods only
+    selected_goods = ['bacon', 'bread', 'butter', 'coffee', 'eggs', 'flour', 'milk', 'pork chop', 'round steak', 'sugar', 'gas']
+    df = df[df['name'].isin(selected_goods)]
 
     df['Year'] = df['date'].str.slice(0, 7)
-
-    # Interpolate missing prices for each good
     df['price'] = pd.to_numeric(df['price'], errors='coerce')
     df = df.sort_values(by=['name', 'Year'])
     df['price'] = df.groupby('name')['price'].transform(lambda group: group.interpolate(method='linear'))
@@ -38,9 +32,12 @@ def get_goods_prices_graph():
     for good in df['name'].unique():
         subset = df[df['name'] == good]
         legend_name = f"{good} /{subset['good_unit'].iloc[0]}"
+        x_vals = subset['Year'].astype(str).tolist()
+        y_vals = np.round(subset['price'].astype(float), 2).tolist()
+
         fig.add_trace(go.Scatter(
-            x=subset['Year'],
-            y=np.round(subset['price'],2),
+            x=x_vals,
+            y=y_vals,
             mode='lines',
             name=legend_name,
             hovertemplate=legend_name + ": %{y}<extra></extra>"
@@ -54,26 +51,23 @@ def get_goods_prices_graph():
     )
     return fig
 
-# WHERE good_name IN ('bacon', 'bread', 'butter', 'coffee', 'eggs', 'flour', 'milk', 'pork chop', 'round steak', 'sugar')
 def get_affordable_goods_graph():
-    conn = sqlite3.connect(db_path)
-    query = """
-        SELECT year, good_name, affordable_monthly_quantity, good_unit
-        FROM affordable_goods
-        
-        ORDER BY year
-    """
-    df = pd.read_sql_query(query, conn)
-    conn.close()
+    csv_path = os.path.join(csv_dir, 'affordable_goods.csv')
+    df = pd.read_csv(csv_path)
+
+    goods = ['bacon', 'bread', 'butter', 'coffee', 'eggs', 'flour', 'milk', 'pork chop', 'round steak', 'sugar']
+    df = df[df['good_name'].isin(goods)]
 
     fig = go.Figure()
 
     for good in df['good_name'].unique():
         subset = df[df['good_name'] == good]
         legend_name = f"{good} /{subset['good_unit'].iloc[0]}"
+        x_vals = subset['year'].astype(str).tolist()
+        y_vals = subset['affordable_monthly_quantity'].astype(int).tolist()
         fig.add_trace(go.Scatter(
-            x=subset['year'],
-            y=subset['affordable_monthly_quantity'],
+            x=x_vals,
+            y=y_vals,
             mode='lines',
             name=legend_name,
             hovertemplate=legend_name + ": %{y}<extra></extra>"
@@ -87,26 +81,23 @@ def get_affordable_goods_graph():
     )
     return fig
 
-# WHERE good_name IN ('bacon', 'bread', 'butter', 'coffee', 'eggs', 'milk', 'pork chop', 'round steak', 'gas')
 def get_affordable_goods_graph_no_flower_sugar():
-    conn = sqlite3.connect(db_path)
-    query = """
-        SELECT year, good_name, affordable_monthly_quantity, good_unit
-        FROM affordable_goods
-        
-        ORDER BY year
-    """
-    df = pd.read_sql_query(query, conn)
-    conn.close()
+    csv_path = os.path.join(csv_dir, 'affordable_goods.csv')
+    df = pd.read_csv(csv_path)
+
+    goods = ['bacon', 'bread', 'butter', 'coffee', 'eggs', 'milk', 'pork chop', 'round steak', 'gas']
+    df = df[df['good_name'].isin(goods)]
 
     fig = go.Figure()
 
     for good in df['good_name'].unique():
         subset = df[df['good_name'] == good]
         legend_name = f"{good} /{subset['good_unit'].iloc[0]}"
+        x_vals = subset['year'].astype(str).tolist()
+        y_vals = subset['affordable_monthly_quantity'].astype(int).tolist()
         fig.add_trace(go.Scatter(
-            x=subset['year'],
-            y=subset['affordable_monthly_quantity'],
+            x=x_vals,
+            y=y_vals,
             mode='lines',
             name=legend_name,
             hovertemplate=legend_name + ": %{y}<extra></extra>"
@@ -120,7 +111,6 @@ def get_affordable_goods_graph_no_flower_sugar():
     )
     return fig
 
-# Define the Income Average Graph as a function
 def get_income_averages_graph():
     income = pd.read_csv("https://raw.githubusercontent.com/ryanfernald/Value-Voyage-A-Journey-Through-Decades-of-Prices/refs/heads/main/data/ryans_data/income1913-1998.csv")
 
@@ -147,8 +137,6 @@ def get_income_averages_graph():
     )
     return income_graph_fig
 
-
-# Define the Income Shares By Percentage Graph as a function
 def get_income_shares_graph():
     income = pd.read_csv("https://raw.githubusercontent.com/ryanfernald/Value-Voyage-A-Journey-Through-Decades-of-Prices/refs/heads/main/data/ryans_data/income1913-1998.csv")
     columns_to_plot = [
