@@ -53,3 +53,5 @@ if __name__ == "__main__":
         output_format='df'
     )
     fig.show()
+    fig.write_html("goods_affordable.html")
+

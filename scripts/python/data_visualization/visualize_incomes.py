@@ -1,5 +1,6 @@
 from plotly.graph_objects import Figure, Scatter
 from src.functions.db.fetch import fetch_incomes
+from plotly.io import to_html
 
 
 def compare_income_data_sources(db_path, start_year, end_year, regions, sources, markers, output_format, output_file=None, y_scale='log'):
@@ -55,3 +56,12 @@ if __name__ == "__main__":
         markers, output_format, output_file, y_scale
     )
     fig.show()
+
+    # Save figure as HTML file
+    html_file = "incomes_plotly.html"
+    fig_html = to_html(fig, full_html=True)
+
+    with open(html_file, "w") as f:
+        f.write(fig_html)
+
+    print(f"HTML file saved as {html_file}")
