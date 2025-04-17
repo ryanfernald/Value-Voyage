@@ -10,6 +10,7 @@ import numpy as np
 # from src.functions.db.fetch import fetch_goods_prices
 # from src.functions.db.fetch import fetch_bea_incomes
 # from scripts.python.data_visualization.visualize_final_goods import plot_incomes_inf_final_goods
+from components import navbar
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 csv_dir = os.path.join(BASE_DIR, '..', 'data', 'csv')
@@ -195,6 +196,8 @@ def get_income_shares_graph():
 # Define the layout for the analysis page
 layout = dbc.Container(
     [
+        navbar.create_navbar(),
+
         dbc.Row(
             [
                 dbc.Col(

@@ -1,4 +1,7 @@
 import warnings
+
+from components import navbar
+
 warnings.filterwarnings("ignore", category=UserWarning, module='pandas')
 
 from dash import html, dcc, callback, Output, Input
@@ -182,7 +185,8 @@ alpha_beta_fig.update_layout(
 
 
 layout = dbc.Container(fluid=True, children=[
-    
+    navbar.create_navbar(),
+
     # Section: Header / Introduction
     dbc.Row([
         dbc.Col(html.H2("Understanding Income Inequality Through Statistical Modeling"), width=12),

@@ -4,28 +4,23 @@ warnings.filterwarnings("ignore", category=UserWarning, module='pandas')
 from dash import Dash, dcc, html, Input, Output, callback, dash
 import dash_bootstrap_components as dbc
 from components import navbar
-from pages import landing, objectives, analysis, findings, stats_analysis, housing_vis
-# from flask import Flask, request
+from pages import landing, objectives, analysis, findings, stats_analysis
 import os
-
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True)
 server = app.server
 
-# Define the app layout
+# # # Define the app layout
 app.layout = html.Div([
     dcc.Location(id="url", refresh=False),
-    navbar.create_navbar(),
-    html.Div(id="page-content", style={"padding": "20px"}),
-    dash.page_container
-
+    html.Div(id="page-content", style={'width': '100%'}),
 ])
 
-# Define the callback to update the page content
 @callback(
     Output("page-content", "children"),
     [Input("url", "pathname")]
 )
+
 def display_page(pathname):
     if pathname == "/":
         return landing.layout
@@ -38,41 +33,27 @@ def display_page(pathname):
     elif pathname == "/stat_analysis":
         return stats_analysis.layout
     elif pathname == "/housing_visualization":
-        return housing_vis.layout
+        return html.Div()
     else:
         return html.Div([
             html.H1("404: Page Not Found"),
             html.P("The page you are looking for does not exist.")
         ])
 
-# Define a readiness check endpoint
-@app.server.route('/readiness_check')
-def readiness_check():
-    if app.is_ready():
-        return "App is ready", 200
+# Callback to toggle the navigation menu visibility
+@app.callback(
+    [Output("topNav", "className"),
+     Output("topBar", "className"),
+     Output("menuToggle", "className")],
+    [Input("menuToggle", "n_clicks")],
+    prevent_initial_call=True
+)
+def toggle_menu(n_clicks):
+    if n_clicks % 2 == 1:
+        return "top-nav open", "top-bar with-background", "menu-toggle active"
     else:
-        return "App is not ready", 503
-    
-@app.server.route("/debug-db")
-def debug_db():
-    test_path = os.path.join(os.path.dirname(__file__), 'data', 'db', 'sqlite', 'database.sqlite')
-    try:
-        exists = os.path.exists(test_path)
-        return f"File exists: {exists}, Path: {test_path}"
-    except Exception as e:
-        return str(e), 500
-    
+        return "top-nav", "top-bar", "menu-toggle"
 
-@app.server.route("/list-db-dir")
-def list_db_dir():
-    try:
-        base_dir = os.path.dirname(__file__)
-        full_path = os.path.join(base_dir, 'data', 'db', 'sqlite')
-        files = os.listdir(full_path)
-        return "<br>".join(files)
-    except Exception as e:
-        return f"Failed to read directory: {str(e)}"
-
-if __name__ == "__main__":
-    app.run_server(debug=True, port=8080 if os.environ.get('SERVER_SOFTWARE') else 8050)
-    warnings.filterwarnings("ignore", category=UserWarning, module='pandas')
+# Run the app
+if __name__ == '__main__':
+    app.run(debug=True)

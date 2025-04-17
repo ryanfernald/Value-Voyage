@@ -56,11 +56,11 @@ if __name__ == "__main__":
     fig = plot_income_intervals_to_purchase(
         db_path='../../../data/db/sqlite/database.sqlite',
         year_range=(1953, 2024),
-        # goods_list=['house'],
-        goods_list=['Private 4-Year Tuition', 'Public 4-Year Tuition'],
+        goods_list=['house'],
+        # goods_list=['Private 4-Year Tuition', 'Public 4-Year Tuition'],
         regions=['united states'],
         income_data_source='FRED',
-        salary_interval='monthly',
+        salary_interval='annually',
         output_format='df'
     )
     fig.show()

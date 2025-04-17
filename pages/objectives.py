@@ -2,9 +2,13 @@ import dash
 from dash import dcc, html
 import dash_bootstrap_components as dbc
 
+from components import navbar
+
 layout = dbc.Container(
     [
-            dbc.Row(
+        navbar.create_navbar(),
+
+        dbc.Row(
                 [
                     dbc.Col(
                         html.Div([

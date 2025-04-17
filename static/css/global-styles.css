@@ -1,0 +1,84 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  background-color: #000; /* added to fade in from black */
+}
+
+page-content {
+  width: 100%;
+}
+/* rest of your code remains the same */
+.container-slide {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.section-slide {
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.8s forwards;
+}
+
+.section-slide:nth-child(odd) {
+  background-color: #003135;
+}
+
+.section-slide:nth-child(even) {
+  background-color: #024950;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 1rem;
+  opacity: 0.85;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  h1 { font-size: 3rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.25rem; }
+  p { font-size: 1rem; }
+}
+
+.plot-container {
+  width: 90%;
+  height: auto;
+  min-height: 90%;
+  margin: auto;
+  border: none;
+}

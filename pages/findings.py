@@ -1,8 +1,10 @@
 import dash
 from dash import html, dcc
 
+from components import navbar
 
 layout = html.Div([
+    navbar.create_navbar(),
     html.H1("Findings Page"),
     html.P("Findings Page with some nice graphs and documentation"),
     dcc.Graph(
