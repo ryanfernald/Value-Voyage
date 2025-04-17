@@ -1,5 +1,14 @@
-from dash import html
+from dash import html, dcc
+import os
 
+# Path to the external HTML file
+html_file_path = os.path.join(os.getcwd(), 'static', 'plotly', 'incomes.html')
+
+# Read the HTML content from the file
+with open(html_file_path, 'r') as f:
+    html_content = f.read()
+
+# Layout of the app
 layout = html.Div([
     # Link to CSS files in the static folder
     html.Link(rel='stylesheet', href='/static/css/global-styles.css'),
@@ -49,7 +58,38 @@ layout = html.Div([
             html.H2("So we collected some data"),
             html.H3("1. The average price of goods from 1900 - 2020"),
             html.H3("2. The average incomes from 1900 - 2020")
-        ])
+        ]),
+
+        html.Div(className="section-slide", children=[
+            html.Iframe(
+                src='/static/plotly/incomes.html',  # Path to the HTML file
+                className="plot-container",
+            )
+        ]),
+
+        html.Div(className="section-slide", children=[
+            html.Iframe(
+                src='/static/plotly/goods_prices.html',  # Path to the HTML file
+                className="plot-container",
+            )
+        ]),
+
+        html.Div([
+            html.H2("Now we combine this data"),
+            dcc.Markdown('''
+            $$
+            \\text{quantity_affordable}_{\\text{ year}} = \\frac{\\text{average_monthly_income}_{\\text{ year}}}{\\text{good_price}_{\\text{ year}}}
+            $$
+            ''', mathjax=True)  # mathjax=True enables LaTeX rendering
+        ], className="section-slide"),
+
+        html.Div(className="section-slide", children=[
+            html.Iframe(
+                src='/static/plotly/goods_affordable.html',  # Path to the HTML file
+                className="plot-container",
+            )
+        ]),
+
     ], className="container-slide"),
 
     # Link to JavaScript file in the static folder
