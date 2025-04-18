@@ -5,7 +5,7 @@ import os
 html_file_path = os.path.join(os.getcwd(), 'static', 'plotly', 'incomes.html')
 
 # Read the HTML content from the file
-with open(html_file_path, 'r') as f:
+with open(html_file_path, 'r', encoding='utf-8') as f:
     html_content = f.read()
 
 # Layout of the app

@@ -200,6 +200,35 @@ layout = dbc.Container(fluid=True, children=[
     # Section: Lorenz Curve Interactive Plot
     dbc.Row([
         dbc.Col([
+            dcc.Graph(id="gini-trend-plot", figure=gini_trend_fig)
+        ], width=12)
+    ]),
+
+    # Section: Gini Coefficients Text + Visual Pair
+    dbc.Row([
+        dbc.Col([
+            html.H3("Interpreting Gini Coefficients"),
+            html.P("""
+                The Gini coefficient summarizes income inequality on a scale from 0 (perfect equality) to 1 (maximum inequality).
+                It is derived from the Lorenz Curve and provides a snapshot of income concentration across a population.
+                Here we analyze Gini trends using bootstrapped income samples across time.
+            """),
+            dcc.Markdown("""
+            ### PDF (Probability Density Function) of the Gamma Distribution
+
+            The probability density function (PDF) of the Gamma distribution is defined as:
+
+            $$
+            f(x; \\alpha, \\beta) = \\frac{1}{\\Gamma(\\alpha) \\beta^\\alpha} x^{\\alpha - 1} e^{-x / \\beta}
+            $$
+
+            Where:
+            - $$\\alpha$$ is the shape parameter  
+            - $$\\beta$$ is the scale parameter  
+            - $$\\Gamma(f;\\alpha,\\beta)$$ is the Gamma function
+            """, mathjax=True)
+        ], width=6),
+        dbc.Col([
             html.H4("Lorenz Curve by Year"),
             dcc.Slider(
                 id="year-slider",
@@ -220,70 +249,40 @@ layout = dbc.Container(fluid=True, children=[
                 tooltip={"placement": "bottom", "always_visible": True}
             ),
             dcc.Graph(id="lorenz-curve-plot")
-        ])
-    ]),
-
-    # Section: Gini Coefficients Text + Visual Pair
-    dbc.Row([
-    dbc.Col([
-        html.H3("Interpreting Gini Coefficients"),
-        html.P("""
-            The Gini coefficient summarizes income inequality on a scale from 0 (perfect equality) to 1 (maximum inequality).
-            It is derived from the Lorenz Curve and provides a snapshot of income concentration across a population.
-            Here we analyze Gini trends using bootstrapped income samples across time.
-        """),
-        dcc.Markdown("""
-        ### PDF (Probability Density Function) of the Gamma Distribution
-
-        The probability density function (PDF) of the Gamma distribution is defined as:
-
-        $$
-        f(x; \\alpha, \\beta) = \\frac{1}{\\Gamma(\\alpha) \\beta^\\alpha} x^{\\alpha - 1} e^{-x / \\beta}
-        $$
-
-        Where:
-        - $$\\alpha$$ is the shape parameter  
-        - $$\\beta$$ is the scale parameter  
-        - $$\\Gamma(\\alpha)$$ is the Gamma function
-        """, mathjax=True)
-    ], width=6),
-
-    dbc.Col([
-        dcc.Graph(id="gini-trend-plot", figure=gini_trend_fig)
-    ], width=6)
-], className="mb-4"),
+        ], width=6),  # Added missing width parameter and comma
+    ], className="mb-4"),
 
     # Section: Expressing Income Inequality
     dbc.Row([
-    dbc.Col([
-        html.H3("Expressing Income Inequality"),
-        html.H5("Income Inequality Metrics"),
-        html.P("""
-            To help understand the purchasing power of the dollar we wanted to better understand what it means for income inequality to be expressed in a few specific metrics. 
-            To model and quantify income inequality in a dynamic and interpretable way, we developed a composite framework that utilizes three parameters: 
-            The Palma Ratio, along with two delta values related to Housing Affordability and Productivity. The overall goal is to express these metrics as the hyperparameters in a Gamma distribution.
-        """),
-        html.H5("Here's a brief summary and explanation as to why we used these parameters:"),
-        html.P("✤ Palma Ratio: This is a widely accepted measure of income inequality, defined as the ratio of the income share of the top 10% to that of the bottom 40%. It is a direct expression of income concentration and wealth disparity."),
-        html.P("✤ Housing Affordability Delta: This metric measures the gap between what median-income individuals can afford and the actual cost of home ownership, including mortgage payments, insurance, and property taxes. This represents how economic inequality manifests in housing access and financial pressure, particularly for middle and lower-income earners."),
-        html.P("✤ Productivity-Pay Gap: This captures the divergence between labor productivity and real wage growth. It reflects structural trends in wage stagnation, capital-labor imbalance, and broader systemic inequality that may not appear immediately in direct income ratios."),
-        html.P("""
-            A small note about the Pay Gap Delta: The data we have only goes back to 1948, so we set pay and performance equivalent for years before 1948. 
-            This ensures their values represent equal pay for equal productivity and do not skew our Alpha or Beta values. 
-            We thought it was an important metric to include as it represents overall economic inequality in the US.
-        """)
-    ], width=12)
-], className="mb-4"),
+        dbc.Col([
+            html.H3("Expressing Income Inequality"),
+            html.H5("Income Inequality Metrics"),
+            html.P("""
+                To help understand the purchasing power of the dollar we wanted to better understand what it means for income inequality to be expressed in a few specific metrics. 
+                To model and quantify income inequality in a dynamic and interpretable way, we developed a composite framework that utilizes three parameters: 
+                The Palma Ratio, along with two delta values related to Housing Affordability and Productivity. The overall goal is to express these metrics as the hyperparameters in a Gamma distribution.
+            """),
+            html.H5("Here's a brief summary and explanation as to why we used these parameters:"),
+            html.P("✤ Palma Ratio: This is a widely accepted measure of income inequality, defined as the ratio of the income share of the top 10% to that of the bottom 40%. It is a direct expression of income concentration and wealth disparity."),
+            html.P("✤ Housing Affordability Delta: This metric measures the gap between what median-income individuals can afford and the actual cost of home ownership, including mortgage payments, insurance, and property taxes. This represents how economic inequality manifests in housing access and financial pressure, particularly for middle and lower-income earners."),
+            html.P("✤ Productivity-Pay Gap: This captures the divergence between labor productivity and real wage growth. It reflects structural trends in wage stagnation, capital-labor imbalance, and broader systemic inequality that may not appear immediately in direct income ratios."),
+            html.P("""
+                A small note about the Pay Gap Delta: The data we have only goes back to 1948, so we set pay and performance equivalent for years before 1948. 
+                This ensures their values represent equal pay for equal productivity and do not skew our Alpha or Beta values. 
+                We thought it was an important metric to include as it represents overall economic inequality in the US.
+            """)
+        ], width=12)
+    ], className="mb-4"),
 
     # Section: Income Indquality Metrics Graphs
     dbc.Row([
-    dbc.Col([
-        dcc.Graph(id="income_inequality_metrics", figure=metrics_fig)
-    ], width=6),
-    dbc.Col([
-        dcc.Graph(id="normalized_income_inequality_metrics", figure=norm_fig)
-    ], width=6)
-], className="mb-4"),
+        dbc.Col([
+            dcc.Graph(id="income_inequality_metrics", figure=metrics_fig)
+        ], width=6),
+        dbc.Col([
+            dcc.Graph(id="normalized_income_inequality_metrics", figure=norm_fig)
+        ], width=6)
+    ], className="mb-4"),
 
     # Section: Alpha and Beta Parameter Visualization
     dbc.Row([
