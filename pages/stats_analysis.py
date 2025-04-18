@@ -1,17 +1,17 @@
 import warnings
+warnings.filterwarnings("ignore", category=UserWarning, module='pandas')
 
 from components import navbar
-
-warnings.filterwarnings("ignore", category=UserWarning, module='pandas')
 
 from dash import html, dcc, callback, Output, Input
 import dash_bootstrap_components as dbc
 import plotly.express as px
 import plotly.graph_objects as go
-import sqlite3
 import os
 import pandas as pd
 import numpy as np
+
+from pages.vis.stats_analysis_vis import build_income_distribution_pyramid
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 csv_dir = os.path.join(BASE_DIR, '..', 'data', 'csv')
@@ -308,6 +308,12 @@ layout = dbc.Container(fluid=True, children=[
             dcc.Graph(id="beta-trend-plot", figure=alpha_beta_fig)
         ], width=6)
     ], className="mb-5"),
+    dbc.Row([
+    dbc.Col([
+        html.H3("Mean Income Distribution by Year and Group"),
+        dcc.Graph(id="income-distribution-pyramid", figure=build_income_distribution_pyramid())
+    ], width=12)
+], className="mb-5")
 ])
 
 exprort_layout = layout
